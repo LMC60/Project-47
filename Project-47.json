@@ -564,6 +564,29 @@
         "metadata": "",
         "name": "spyagency.ttf",
         "userAdded": false
+      },
+      {
+        "file": "assets/Sniper.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Sniper.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/sniper.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\sniper.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1072,7 +1095,7 @@
           "depth": 85,
           "height": 33,
           "layer": "",
-          "name": "Pirate_Captain",
+          "name": "Camera",
           "persistentUuid": "f3a30dcc-8143-48ec-9368-59ecd3fcf45a",
           "width": 25,
           "x": 3275,
@@ -1094,6 +1117,23 @@
           "x": 3753,
           "y": -74,
           "z": -1280,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 174,
+          "customSize": true,
+          "depth": 24,
+          "height": 11,
+          "layer": "",
+          "name": "Sniper",
+          "persistentUuid": "1f0fa246-56fe-47d4-9e68-c0ac61aa367e",
+          "width": 63,
+          "x": 3317,
+          "y": 1384,
+          "z": -379,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1158,104 +1198,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "Camera",
-          "type": "Scene3D::Cube3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "FirstPersonPointerMapper",
-              "type": "MousePointerLock::FirstPersonPointerMapper",
-              "Object3D": "Object3D",
-              "HorizontalSpeed": 200,
-              "VerticalSpeed": 100,
-              "VerticalAngleMin": -90,
-              "VerticalAngleMax": 90,
-              "OffsetZ": 0,
-              "ShouldLock": true
-            },
-            {
-              "name": "Physics3D",
-              "type": "Physics3D::Physics3DBehavior",
-              "object3D": "Object3D",
-              "bodyType": "Static",
-              "bullet": false,
-              "fixedRotation": false,
-              "shape": "Capsule",
-              "meshShapeResourceName": "Grass.glb",
-              "shapeOrientation": "Y",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeDimensionC": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "shapeOffsetZ": 0,
-              "massCenterOffsetX": 0,
-              "massCenterOffsetY": 0,
-              "massCenterOffsetZ": 0,
-              "massOverride": 0,
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 17,
-              "masks": 17
-            },
-            {
-              "name": "PhysicsCharacter3D",
-              "type": "Physics3D::PhysicsCharacter3D",
-              "physics3D": "Physics3D",
-              "jumpHeight": 200,
-              "jumpSustainTime": 0.2,
-              "gravity": 1000,
-              "fallingSpeedMax": 700,
-              "forwardAcceleration": 1200,
-              "forwardDeceleration": 1200,
-              "forwardSpeedMax": 300,
-              "sidewaysAcceleration": 800,
-              "sidewaysDeceleration": 800,
-              "sidewaysSpeedMax": 400,
-              "slopeMaxAngle": 50,
-              "stairHeightMax": 20,
-              "shouldBindObjectAndForwardAngle": true,
-              "canBePushed": true
-            }
-          ],
-          "content": {
-            "width": 40,
-            "height": 160,
-            "depth": 40,
-            "enableTextureTransparency": false,
-            "facesOrientation": "Y",
-            "frontFaceResourceName": "",
-            "backFaceResourceName": "",
-            "backFaceUpThroughWhichAxisRotation": "X",
-            "leftFaceResourceName": "",
-            "rightFaceResourceName": "",
-            "topFaceResourceName": "",
-            "bottomFaceResourceName": "",
-            "frontFaceVisible": false,
-            "backFaceVisible": true,
-            "leftFaceVisible": true,
-            "rightFaceVisible": true,
-            "topFaceVisible": true,
-            "bottomFaceVisible": true,
-            "frontFaceResourceRepeat": false,
-            "backFaceResourceRepeat": false,
-            "leftFaceResourceRepeat": false,
-            "rightFaceResourceRepeat": false,
-            "topFaceResourceRepeat": false,
-            "bottomFaceResourceRepeat": false,
-            "materialType": "StandardWithoutMetalness",
-            "tint": "255;255;255",
-            "isCastingShadow": true,
-            "isReceivingShadow": true
-          }
-        },
-        {
-          "assetStoreId": "",
           "name": "platforme_pente",
           "type": "Scene3D::Model3DObject",
           "variables": [],
@@ -1311,11 +1253,41 @@
         },
         {
           "assetStoreId": "a2a41754f8cbb350aac0e072db8161f6afeeb69fb5a747020ac22f6a05fee130",
-          "name": "Pirate_Captain",
+          "name": "Camera",
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
           "behaviors": [
+            {
+              "name": "FireBullet",
+              "type": "FireBullet::FireBullet",
+              "FireCooldown": 3,
+              "HasJustFired": false,
+              "RotateBullet": true,
+              "FiringArc": 45,
+              "BulletQuantity": 1,
+              "AngleVariance": 0,
+              "BulletSpeedVariance": 0,
+              "AmmoQuantity": 0,
+              "ShotsPerReload": 0,
+              "ReloadDuration": 5,
+              "MaxAmmo": 5,
+              "ShotsBeforeNextReload": 0,
+              "TotalShotsFired": 0,
+              "TotalBulletsCreated": 0,
+              "StartingAmmo": 5,
+              "TotalReloadsCompleted": 0,
+              "UnlimitedAmmo": false,
+              "ReloadInProgress": false,
+              "HeatIncreasePerShot": 0,
+              "HeatLevel": 0,
+              "AutomaticReloading": true,
+              "OverheatDuration": 0,
+              "LinearCoolingRate": 0.1,
+              "ExponentialCoolingRate": 0.3,
+              "BulletLayer": "",
+              "RandomizedAngle": 0
+            },
             {
               "name": "FirstPersonPointerMapper",
               "type": "MousePointerLock::FirstPersonPointerMapper",
@@ -1448,6 +1420,152 @@
             "width": 1,
             "animations": []
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Sniper",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "Basic",
+            "modelResourceName": "assets\\Sniper.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Balle",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite4",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28,
+                            "y": 26
+                          },
+                          {
+                            "x": 36,
+                            "y": 26
+                          },
+                          {
+                            "x": 36,
+                            "y": 33
+                          },
+                          {
+                            "x": 28,
+                            "y": 33
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "SpriteSniperLayout",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\sniper.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 308,
+                            "y": 18
+                          },
+                          {
+                            "x": 666,
+                            "y": 18
+                          },
+                          {
+                            "x": 666,
+                            "y": 375
+                          },
+                          {
+                            "x": 308,
+                            "y": 375
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -1463,10 +1581,16 @@
             "objectName": "Camera"
           },
           {
-            "objectName": "Pirate_Captain"
+            "objectName": "Balle"
           },
           {
             "objectName": "Death_Zone"
+          },
+          {
+            "objectName": "Sniper"
+          },
+          {
+            "objectName": "SpriteSniperLayout"
           }
         ]
       },
@@ -1509,6 +1633,16 @@
                 "\"Top Down\"",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Sniper",
+                "Flippable",
+                "yes"
+              ]
             }
           ]
         },
@@ -1525,6 +1659,48 @@
                 "Object3D",
                 "=",
                 "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Physics3D::CollisionStarted"
+              },
+              "parameters": [
+                "Camera",
+                "Physics3D",
+                "Death_Zone",
+                "Physics3D",
+                "no"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Camera",
+                "=",
+                "3275",
+                "=",
+                "1367"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "Camera",
+                "Object3D",
+                "=",
+                "-400"
               ]
             }
           ]
@@ -1551,7 +1727,7 @@
               },
               "parameters": [
                 "",
-                "Pirate_Captain",
+                "Camera",
                 "Object3D",
                 "",
                 ""
@@ -1587,7 +1763,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": ""
+          "comment": "Commandes"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -1625,7 +1801,7 @@
                 "value": "Physics3D::PhysicsCharacter3D::SimulateLeftKey"
               },
               "parameters": [
-                "Pirate_Captain",
+                "Camera",
                 "PhysicsCharacter3D"
               ]
             }
@@ -1667,7 +1843,7 @@
                 "value": "Physics3D::PhysicsCharacter3D::SimulateForwardKey"
               },
               "parameters": [
-                "Pirate_Captain",
+                "Camera",
                 "PhysicsCharacter3D"
               ]
             }
@@ -1692,7 +1868,7 @@
                 "value": "Physics3D::PhysicsCharacter3D::SimulateRightKey"
               },
               "parameters": [
-                "Pirate_Captain",
+                "Camera",
                 "PhysicsCharacter3D"
               ]
             }
@@ -1717,53 +1893,28 @@
                 "value": "Physics3D::PhysicsCharacter3D::SimulateBackwardKey"
               },
               "parameters": [
-                "Pirate_Captain",
+                "Camera",
                 "PhysicsCharacter3D"
               ]
             }
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Shooting"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Physics3D::CollisionStarted"
-              },
-              "parameters": [
-                "Pirate_Captain",
-                "Physics3D",
-                "Death_Zone",
-                "Physics3D",
-                "no"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetXY"
-              },
-              "parameters": [
-                "Pirate_Captain",
-                "=",
-                "3275",
-                "=",
-                "1367"
-              ]
-            },
-            {
-              "type": {
-                "value": "Scene3D::Base3DBehavior::SetZ"
-              },
-              "parameters": [
-                "Pirate_Captain",
-                "Object3D",
-                "=",
-                "-400"
-              ]
-            }
-          ]
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -1831,12 +1982,75 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "defaultCameraBehavior": "do-nothing",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Sniper",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "FireBullet",
+          "type": "FireBullet::FireBullet"
         },
         {
           "name": "FirstPersonPointerMapper",
@@ -1849,6 +2063,10 @@
         {
           "name": "Object3D",
           "type": "Scene3D::Base3DBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
         },
         {
           "name": "Physics3D",

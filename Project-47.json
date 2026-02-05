@@ -641,6 +641,25 @@
         "name": "assets\\929-9299277_guess-the-emoji-part-two-pixel-art-explosion.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/Table.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Table.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Furniture/furniture/9c2e2a91225ce2e8bb5ef2407fb132549373565c133d21d69e2a2682d36c8971_Table.glb",
+          "name": "Table.glb"
+        }
+      },
+      {
+        "file": "assets/letter-e-illustration-keyboard-button-on-dark-color-and-transparent-background-png.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\letter-e-illustration-keyboard-button-on-dark-color-and-transparent-background-png.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1122,7 +1141,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.16448391304937568,
+        "zoomFactor": 0.17003036489028994,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "embedded-game"
@@ -1198,17 +1217,18 @@
           "initialVariables": []
         },
         {
-          "angle": 174,
+          "angle": 162,
           "customSize": true,
           "depth": 24,
           "height": 11,
           "layer": "",
           "name": "Sniper",
           "persistentUuid": "1f0fa246-56fe-47d4-9e68-c0ac61aa367e",
+          "rotationX": 271,
           "width": 63,
-          "x": 3417,
-          "y": 1222,
-          "z": -402,
+          "x": 3265,
+          "y": 1035,
+          "z": -358,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1259,6 +1279,39 @@
           "x": 3240,
           "y": 1231,
           "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 28,
+          "height": 38,
+          "layer": "",
+          "name": "Table",
+          "persistentUuid": "1732f149-286e-4d09-bb69-f1d44bb33a1e",
+          "width": 72,
+          "x": 3224,
+          "y": 1039,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 10,
+          "layer": "",
+          "name": "E",
+          "persistentUuid": "2a73cfbc-7a55-4427-b495-211b81f438fb",
+          "width": 10,
+          "x": 3254,
+          "y": 1015,
+          "z": -365,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -1727,20 +1780,7 @@
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
-          "behaviors": [
-            {
-              "name": "AdvancedProjectile",
-              "type": "AdvancedProjectile::AdvancedProjectile",
-              "MaxLifetime": 0,
-              "MaxDistanceFromStartingPosition": 0,
-              "MaxSpeed": 0,
-              "MinSpeed": 0,
-              "Acceleration": 0,
-              "StartingSpeed": 0,
-              "DeleteWhenLifetimeExceeded": false,
-              "DeleteWhenDistanceExceeded": false
-            }
-          ],
+          "behaviors": [],
           "content": {
             "centerLocation": "ObjectCenter",
             "crossfadeDuration": 0.10000000149011612,
@@ -1845,18 +1885,121 @@
             "topFaceResourceName": "assets\\929-9299277_guess-the-emoji-part-two-pixel-art-explosion.png",
             "bottomFaceResourceName": "assets\\929-9299277_guess-the-emoji-part-two-pixel-art-explosion.png",
             "frontFaceVisible": true,
-            "backFaceVisible": true,
-            "leftFaceVisible": true,
-            "rightFaceVisible": true,
-            "topFaceVisible": true,
-            "bottomFaceVisible": true,
+            "backFaceVisible": false,
+            "leftFaceVisible": false,
+            "rightFaceVisible": false,
+            "topFaceVisible": false,
+            "bottomFaceVisible": false,
             "frontFaceResourceRepeat": false,
             "backFaceResourceRepeat": false,
             "leftFaceResourceRepeat": false,
             "rightFaceResourceRepeat": false,
             "topFaceResourceRepeat": false,
             "bottomFaceResourceRepeat": false,
+            "materialType": "Basic",
+            "tint": "255;255;255",
+            "isCastingShadow": false,
+            "isReceivingShadow": false
+          }
+        },
+        {
+          "assetStoreId": "5e177a59c383049310e5be040ffba06d73b0f39f90d84b5e92172f508232a2ba",
+          "name": "Table",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 139,
+            "height": 139,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Table.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 139,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "E",
+          "type": "Scene3D::Cube3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Billboard",
+              "type": "Billboard::Billboard",
+              "Object3D": "Object3D",
+              "ShouldRotateX": true,
+              "ShouldRotateY": true,
+              "ShouldRotateZ": true,
+              "OffsetPositionMode": "No change"
+            }
+          ],
+          "content": {
+            "width": 10,
+            "height": 10,
+            "depth": 10,
+            "enableTextureTransparency": true,
+            "facesOrientation": "Y",
+            "frontFaceResourceName": "assets\\letter-e-illustration-keyboard-button-on-dark-color-and-transparent-background-png.png",
+            "backFaceResourceName": "assets\\letter-e-illustration-keyboard-button-on-dark-color-and-transparent-background-png.png",
+            "backFaceUpThroughWhichAxisRotation": "X",
+            "leftFaceResourceName": "assets\\letter-e-illustration-keyboard-button-on-dark-color-and-transparent-background-png.png",
+            "rightFaceResourceName": "assets\\letter-e-illustration-keyboard-button-on-dark-color-and-transparent-background-png.png",
+            "topFaceResourceName": "assets\\letter-e-illustration-keyboard-button-on-dark-color-and-transparent-background-png.png",
+            "bottomFaceResourceName": "assets\\letter-e-illustration-keyboard-button-on-dark-color-and-transparent-background-png.png",
+            "frontFaceVisible": true,
+            "backFaceVisible": false,
+            "leftFaceVisible": false,
+            "rightFaceVisible": false,
+            "topFaceVisible": false,
+            "bottomFaceVisible": false,
+            "frontFaceResourceRepeat": false,
+            "backFaceResourceRepeat": false,
+            "leftFaceResourceRepeat": false,
+            "rightFaceResourceRepeat": false,
+            "topFaceResourceRepeat": false,
+            "bottomFaceResourceRepeat": false,
+            "materialType": "Basic",
             "tint": "255;255;255",
             "isCastingShadow": true,
             "isReceivingShadow": true
@@ -1880,6 +2023,12 @@
           },
           {
             "objectName": "Sniper"
+          },
+          {
+            "objectName": "E"
+          },
+          {
+            "objectName": "Table"
           },
           {
             "objectName": "Viseur"
@@ -2390,14 +2539,76 @@
           "conditions": [
             {
               "type": {
-                "value": "Physics3D::Collision"
+                "value": "Distance"
               },
               "parameters": [
                 "Camera",
-                "Physics3D",
                 "Sniper",
-                "Physics3D",
+                "70",
+                "Physics3D"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Show"
+              },
+              "parameters": [
+                "E",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "Distance"
+              },
+              "parameters": [
+                "Camera",
+                "Sniper",
+                "70",
+                "Physics3D"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "E"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Distance"
+              },
+              "parameters": [
+                "Camera",
+                "Sniper",
+                "70",
+                "Physics3D"
+              ]
+            },
+            {
+              "type": {
+                "value": "KeyFromTextPressed"
+              },
+              "parameters": [
+                "",
+                "\"e\""
               ]
             }
           ],
@@ -2480,6 +2691,83 @@
                 "Object3D",
                 "=",
                 "Camera.Object3D::CenterZ()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "balle",
+                "Enemy",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Enemy",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "Impact",
+                "balle.X()",
+                "balle.Y()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "Impact",
+                "Object3D",
+                "=",
+                "balle.Object3D::Z()"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "balle",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Impact",
+                ""
               ]
             }
           ]
@@ -2626,10 +2914,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "AdvancedProjectile",
-          "type": "AdvancedProjectile::AdvancedProjectile"
-        },
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"

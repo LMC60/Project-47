@@ -2103,6 +2103,17 @@
               "name": "FlatHeartBar"
             }
           ]
+        },
+        {
+          "name": "Chrono",
+          "objects": [
+            {
+              "name": "chrono"
+            },
+            {
+              "name": "Chrono2"
+            }
+          ]
         }
       ],
       "variables": [],
@@ -4762,17 +4773,6 @@
                 "60",
                 "1"
               ]
-            },
-            {
-              "type": {
-                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
-              },
-              "parameters": [
-                "BlueDotBar",
-                "-",
-                "1",
-                ""
-              ]
             }
           ],
           "events": [
@@ -5825,7 +5825,7 @@
               },
               "parameters": [
                 "",
-                "chrono",
+                "Chrono",
                 "",
                 "\"Chrono\"",
                 ""
@@ -5863,9 +5863,9 @@
                 "value": "SetY"
               },
               "parameters": [
-                "chrono",
+                "Chrono",
                 "=",
-                "-330"
+                "-300"
               ]
             },
             {
@@ -5874,8 +5874,8 @@
               },
               "parameters": [
                 "Chrono2",
-                "=",
-                "-330"
+                "+",
+                "7"
               ]
             },
             {
@@ -5946,7 +5946,19 @@
                   ]
                 }
               ],
-              "actions": []
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "RedFlatBar",
+                    "-",
+                    "1",
+                    ""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -6001,10 +6013,31 @@
             },
             {
               "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono\""
+              ]
+            },
+            {
+              "type": {
                 "value": "Wait"
               },
               "parameters": [
                 "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::SetCameraFov"
+              },
+              "parameters": [
+                "",
+                "=",
+                "45",
+                "",
+                ""
               ]
             },
             {

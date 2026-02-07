@@ -1582,6 +1582,27 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Toon Shooter/Character/9b8c412b0120ac1a0d8d47d0a03e9109b26ea72f5382bd5a2b16f216ffc60211_Character Enemy Gun.glb",
           "name": "Character Enemy Gun.glb"
         }
+      },
+      {
+        "file": "assets/Male Suit.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Male Suit.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Animated Characters/26b737045a0bbcda518310eaebd57a2dca2acb1c840d3344ee7e1115050bdfe9_Male Suit.glb",
+          "name": "Male Suit.glb"
+        }
+      },
+      {
+        "file": "assets/freesound_community-small-applause-6695.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\freesound_community-small-applause-6695.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ]
   },
@@ -2191,12 +2212,12 @@
         {
           "angle": 299,
           "customSize": true,
-          "depth": 85,
-          "height": 33,
+          "depth": 56,
+          "height": 59,
           "layer": "",
           "name": "Camera",
           "persistentUuid": "f3a30dcc-8143-48ec-9368-59ecd3fcf45a",
-          "width": 25,
+          "width": 11,
           "x": 4062,
           "y": 1414,
           "z": -269,
@@ -2975,7 +2996,7 @@
           "width": 42,
           "x": 3490,
           "y": 811,
-          "z": -396,
+          "z": -351,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -2991,8 +3012,8 @@
           "persistentUuid": "40599abc-e8a2-475c-9e3b-fea2f85391ea",
           "width": 29,
           "x": 3756,
-          "y": 1661,
-          "z": -396,
+          "y": 1723,
+          "z": -358,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3007,26 +3028,9 @@
           "name": "Innocent",
           "persistentUuid": "5f932685-a82e-48c9-8042-bcce34747ff6",
           "width": 29,
-          "x": 3690,
-          "y": 1271,
-          "z": -396,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 239,
-          "customSize": true,
-          "depth": 77,
-          "height": 105,
-          "layer": "",
-          "name": "Innocent",
-          "persistentUuid": "253c4dc5-7d22-44a1-b774-48a31c150cb6",
-          "width": 29,
-          "x": 3084,
-          "y": 1381,
-          "z": -396,
+          "x": 3550,
+          "y": 1518,
+          "z": -358,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3043,7 +3047,41 @@
           "width": 29,
           "x": 3532,
           "y": 389,
-          "z": -396,
+          "z": -358,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 238,
+          "customSize": true,
+          "depth": 77,
+          "height": 105,
+          "layer": "",
+          "name": "Innocent",
+          "persistentUuid": "f931955f-7cd3-4650-85f0-0247a692d6e0",
+          "width": 29,
+          "x": 3037,
+          "y": 1411,
+          "z": -357,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 341,
+          "customSize": true,
+          "depth": 446,
+          "height": 170,
+          "layer": "",
+          "name": "Mur_Invisible",
+          "persistentUuid": "c6f5b1a8-334c-44c3-a381-28abc5718788",
+          "width": 1,
+          "x": 4003,
+          "y": 1312,
+          "z": -269,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3229,7 +3267,7 @@
             }
           ],
           "content": {
-            "centerLocation": "ObjectCenter",
+            "centerLocation": "ModelOrigin",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 10,
             "height": 10,
@@ -3237,7 +3275,7 @@
             "isReceivingShadow": true,
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Pirate Captain.glb",
+            "modelResourceName": "Male Suit.glb",
             "originLocation": "BottomCenterZ",
             "rotationX": 90,
             "rotationY": 0,
@@ -4255,7 +4293,7 @@
               "name": "Physics3D",
               "type": "Physics3D::Physics3DBehavior",
               "object3D": "Object3D",
-              "bodyType": "Kinematic",
+              "bodyType": "Dynamic",
               "bullet": false,
               "fixedRotation": false,
               "shape": "Capsule",
@@ -4282,7 +4320,7 @@
             }
           ],
           "content": {
-            "centerLocation": "ModelOrigin",
+            "centerLocation": "ObjectCenter",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 189,
             "height": 189,
@@ -4291,7 +4329,7 @@
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
             "modelResourceName": "Character Soldier Gun.glb",
-            "originLocation": "ModelOrigin",
+            "originLocation": "ObjectCenter",
             "rotationX": 90,
             "rotationY": 0,
             "rotationZ": 90,
@@ -4396,10 +4434,10 @@
               "name": "Physics3D",
               "type": "Physics3D::Physics3DBehavior",
               "object3D": "Object3D",
-              "bodyType": "Kinematic",
+              "bodyType": "Dynamic",
               "bullet": false,
               "fixedRotation": false,
-              "shape": "Box",
+              "shape": "Capsule",
               "meshShapeResourceName": "",
               "shapeOrientation": "Z",
               "shapeDimensionA": 0,
@@ -4423,7 +4461,7 @@
             }
           ],
           "content": {
-            "centerLocation": "ModelOrigin",
+            "centerLocation": "ObjectCenter",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 196,
             "height": 196,
@@ -4432,7 +4470,7 @@
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
             "modelResourceName": "Character Enemy Gun.glb",
-            "originLocation": "ModelOrigin",
+            "originLocation": "ObjectCenter",
             "rotationX": 90,
             "rotationY": 0,
             "rotationZ": 90,
@@ -4684,6 +4722,16 @@
                 "",
                 "\"Arme\""
               ]
+            },
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Camera",
+                "Flippable",
+                "yes"
+              ]
             }
           ]
         },
@@ -4733,6 +4781,14 @@
                 "Opacity",
                 "=",
                 "150"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Camera"
               ]
             }
           ]
@@ -5018,6 +5074,33 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "Camera",
+                "Animation",
+                "=",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Physics3D::PhysicsCharacter3D::SimulateBackwardKey"
+              },
+              "parameters": [
+                "Camera",
+                "PhysicsCharacter3D"
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 27,
@@ -5215,6 +5298,36 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Animation",
+                    "=",
+                    "\"Death\""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Raycaster3D::RaycastFromCameraCenter"
+                  },
+                  "parameters": [
+                    "",
+                    "Enemy",
+                    "2000",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "Physics3D::Physics3DBehavior::ApplyImpulse"
                   },
                   "parameters": [
@@ -5226,6 +5339,17 @@
                     "Raycaster3D::IntersectionX()",
                     "Raycaster3D::IntersectionY()",
                     "Raycaster3D::IntersectionZ()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Animation",
+                    "=",
+                    "\"Death\""
                   ]
                 }
               ]
@@ -5248,10 +5372,40 @@
               "actions": [
                 {
                   "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                  },
+                  "parameters": [
+                    "Innocent",
+                    "Animation",
+                    "=",
+                    "\"Death\""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Raycaster3D::RaycastFromCameraCenter"
+                  },
+                  "parameters": [
+                    "",
+                    "Innocent",
+                    "2000",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
                     "value": "Physics3D::Physics3DBehavior::ApplyImpulse"
                   },
                   "parameters": [
-                    "Enemy",
+                    "Innocent",
                     "Physics3D",
                     "0.05 * sign(Innocent.CenterX() - Raycaster3D::IntersectionX())",
                     "0.05 * sign(Innocent.CenterY() - Raycaster3D::IntersectionY())",
@@ -6624,6 +6778,113 @@
               "parameters": [
                 "",
                 "\"Chrono\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 0,
+            "g": 151,
+            "r": 255,
+            "textB": 255,
+            "textG": 255,
+            "textR": 255
+          },
+          "comment": "Victoire"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "assets\\freesound_community-small-applause-6695.mp3",
+                "",
+                "100",
+                "1"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Sniper_récupéré",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "4"
+              ]
+            },
+            {
+              "type": {
+                "value": "Quit"
+              },
+              "parameters": [
+                ""
               ]
             }
           ]

@@ -4255,10 +4255,10 @@
               "name": "Physics3D",
               "type": "Physics3D::Physics3DBehavior",
               "object3D": "Object3D",
-              "bodyType": "Dynamic",
+              "bodyType": "Kinematic",
               "bullet": false,
               "fixedRotation": false,
-              "shape": "Box",
+              "shape": "Capsule",
               "meshShapeResourceName": "",
               "shapeOrientation": "Z",
               "shapeDimensionA": 0,
@@ -4396,7 +4396,7 @@
               "name": "Physics3D",
               "type": "Physics3D::Physics3DBehavior",
               "object3D": "Object3D",
-              "bodyType": "Dynamic",
+              "bodyType": "Kinematic",
               "bullet": false,
               "fixedRotation": false,
               "shape": "Box",
@@ -5223,6 +5223,39 @@
                     "0.05 * sign(Enemy.CenterX() - Raycaster3D::IntersectionX())",
                     "0.05 * sign(Enemy.CenterY() - Raycaster3D::IntersectionY())",
                     "0.05 * sign(Enemy.Object3D::CenterZ() - Raycaster3D::IntersectionZ())",
+                    "Raycaster3D::IntersectionX()",
+                    "Raycaster3D::IntersectionY()",
+                    "Raycaster3D::IntersectionZ()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Raycaster3D::RaycastFromCameraCenter"
+                  },
+                  "parameters": [
+                    "",
+                    "Innocent",
+                    "2000",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Physics3D::Physics3DBehavior::ApplyImpulse"
+                  },
+                  "parameters": [
+                    "Enemy",
+                    "Physics3D",
+                    "0.05 * sign(Innocent.CenterX() - Raycaster3D::IntersectionX())",
+                    "0.05 * sign(Innocent.CenterY() - Raycaster3D::IntersectionY())",
+                    "0.05 * sign(Innocent.Object3D::CenterZ() - Raycaster3D::IntersectionZ())",
                     "Raycaster3D::IntersectionX()",
                     "Raycaster3D::IntersectionY()",
                     "Raycaster3D::IntersectionZ()"

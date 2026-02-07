@@ -1603,6 +1603,13 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "assets/talki walkie.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\talki walkie.glb",
+        "userAdded": false
       }
     ]
   },
@@ -2393,23 +2400,6 @@
           "initialVariables": []
         },
         {
-          "angle": 69,
-          "customSize": true,
-          "depth": 16,
-          "height": 7,
-          "layer": "",
-          "name": "Radio",
-          "persistentUuid": "cc011241-d2fd-4e06-867e-8d712e3af291",
-          "width": 25,
-          "x": 4121,
-          "y": 1395,
-          "z": -238,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": false,
           "height": 10,
@@ -2417,8 +2407,8 @@
           "name": "E_Radio",
           "persistentUuid": "d8135a17-29e1-4eb2-a660-523151ac62c8",
           "width": 10,
-          "x": 4110,
-          "y": 1406,
+          "x": 4124,
+          "y": 1401,
           "z": -238,
           "zOrder": 0,
           "numberProperties": [],
@@ -3082,6 +3072,24 @@
           "x": 4003,
           "y": 1312,
           "z": -269,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 161,
+          "customSize": true,
+          "depth": 13,
+          "height": 5,
+          "layer": "",
+          "name": "talkie",
+          "persistentUuid": "beca0191-4461-4b4e-b391-1db7b237a9d8",
+          "rotationY": 270,
+          "width": 3,
+          "x": 4111,
+          "y": 1412,
+          "z": -237,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -4563,6 +4571,31 @@
               }
             ]
           }
+        },
+        {
+          "assetStoreId": "84b03c42eeb1123a0289c02455c88daec543331c8928b0595623fbee89e95d86",
+          "name": "talkie",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 52,
+            "height": 52,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\talki walkie.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 0,
+            "width": 52,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4600,6 +4633,9 @@
               },
               {
                 "objectName": "Radio"
+              },
+              {
+                "objectName": "talkie"
               },
               {
                 "objectName": "Counter_Corner"
@@ -6325,7 +6361,7 @@
               },
               "parameters": [
                 "Camera",
-                "Radio",
+                "talkie",
                 "70",
                 "Physics3D"
               ]
@@ -6397,7 +6433,7 @@
               },
               "parameters": [
                 "Camera",
-                "Radio",
+                "talkie",
                 "70",
                 "Physics3D"
               ]
@@ -6423,7 +6459,7 @@
               },
               "parameters": [
                 "Camera",
-                "Radio",
+                "talkie",
                 "70",
                 "Physics3D"
               ]

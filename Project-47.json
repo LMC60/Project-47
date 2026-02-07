@@ -4284,6 +4284,15 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"Arme\""
+              ]
             }
           ]
         },
@@ -6295,7 +6304,7 @@
           "isLocked": false,
           "name": "Arme",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
           "cameras": [],
           "effects": [
             {

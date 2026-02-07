@@ -1560,6 +1560,28 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Toon Shooter/Weapon/1d7e25ab8eb19f4e2ecc63e985dbb5dc8a40378c7b5d237eff8c0af377155748_Sniper.glb",
           "name": "Sniper.glb"
         }
+      },
+      {
+        "file": "assets/Character Soldier Gun.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Character Soldier Gun.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Toon Shooter/Character/ef145f5fc62b9df1641b4da4baa258b845d231d8e163232c40539652b0dfd037_Character Soldier Gun.glb",
+          "name": "Character Soldier Gun.glb"
+        }
+      },
+      {
+        "file": "assets/Character Enemy Gun.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Character Enemy Gun.glb",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/3D Toon Shooter/Character/9b8c412b0120ac1a0d8d47d0a03e9109b26ea72f5382bd5a2b16f216ffc60211_Character Enemy Gun.glb",
+          "name": "Character Enemy Gun.glb"
+        }
       }
     ]
   },
@@ -2068,9 +2090,6 @@
               "name": "platforme_pente"
             },
             {
-              "name": "Enemy"
-            },
-            {
               "name": "Table"
             },
             {
@@ -2087,6 +2106,12 @@
             },
             {
               "name": "arbre"
+            },
+            {
+              "name": "Innocent"
+            },
+            {
+              "name": "Enemy"
             }
           ]
         },
@@ -2192,23 +2217,6 @@
           "x": -2079,
           "y": -325,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 61,
-          "height": 36,
-          "layer": "",
-          "name": "Enemy",
-          "persistentUuid": "ed2f8a12-f7c6-4828-8138-2a1f84d7010e",
-          "width": 19,
-          "x": 3416,
-          "y": 692,
-          "z": -396,
-          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2643,8 +2651,8 @@
           "name": "arbre",
           "persistentUuid": "ad7618c5-595c-4c34-8789-f4b640b9e104",
           "width": 167,
-          "x": 3552,
-          "y": 1354,
+          "x": 3454,
+          "y": 1274,
           "z": -396,
           "zOrder": 0,
           "numberProperties": [],
@@ -2660,8 +2668,8 @@
           "name": "arbre",
           "persistentUuid": "b8d9fb18-5518-4f36-af67-61928deded1d",
           "width": 167,
-          "x": 3119,
-          "y": 1363,
+          "x": 2901,
+          "y": 1236,
           "z": -396,
           "zOrder": 0,
           "numberProperties": [],
@@ -2711,8 +2719,8 @@
           "name": "arbre",
           "persistentUuid": "a2c13ab0-536d-4ad0-98a7-f463257d1cfc",
           "width": 167,
-          "x": 4251,
-          "y": 597,
+          "x": 4145,
+          "y": 556,
           "z": -396,
           "zOrder": 0,
           "numberProperties": [],
@@ -2883,6 +2891,159 @@
           "x": 4035,
           "y": 1068,
           "z": -112,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 302,
+          "height": 166,
+          "layer": "",
+          "name": "arbre",
+          "persistentUuid": "ff573ca8-8a70-48da-9699-0db0d5d6fb8b",
+          "width": 167,
+          "x": 3171,
+          "y": 1673,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 302,
+          "height": 166,
+          "layer": "",
+          "name": "arbre",
+          "persistentUuid": "981b8260-925c-4865-9ecb-3aac594bccca",
+          "width": 167,
+          "x": 4274,
+          "y": 1701,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 302,
+          "height": 166,
+          "layer": "",
+          "name": "arbre",
+          "persistentUuid": "1f4052d9-5800-4b33-ac2d-2f868fc20bb1",
+          "width": 167,
+          "x": 4459,
+          "y": 935,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 302,
+          "height": 166,
+          "layer": "",
+          "name": "arbre",
+          "persistentUuid": "7ee8ad74-ee16-47ef-bb72-06099a76eb21",
+          "width": 167,
+          "x": 3804,
+          "y": 1423,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 89,
+          "height": 127,
+          "layer": "",
+          "name": "Enemy",
+          "persistentUuid": "d3fd0568-5df7-4eb2-a15e-66be159d35e7",
+          "width": 42,
+          "x": 3490,
+          "y": 811,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 77,
+          "height": 105,
+          "layer": "",
+          "name": "Innocent",
+          "persistentUuid": "40599abc-e8a2-475c-9e3b-fea2f85391ea",
+          "width": 29,
+          "x": 3756,
+          "y": 1661,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 299,
+          "customSize": true,
+          "depth": 77,
+          "height": 105,
+          "layer": "",
+          "name": "Innocent",
+          "persistentUuid": "5f932685-a82e-48c9-8042-bcce34747ff6",
+          "width": 29,
+          "x": 3690,
+          "y": 1271,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 239,
+          "customSize": true,
+          "depth": 77,
+          "height": 105,
+          "layer": "",
+          "name": "Innocent",
+          "persistentUuid": "253c4dc5-7d22-44a1-b774-48a31c150cb6",
+          "width": 29,
+          "x": 3084,
+          "y": 1381,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 130,
+          "customSize": true,
+          "depth": 77,
+          "height": 105,
+          "layer": "",
+          "name": "Innocent",
+          "persistentUuid": "b44bfc83-f931-4f46-9e31-84a42a8106a4",
+          "width": 29,
+          "x": 3532,
+          "y": 389,
+          "z": -396,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3282,61 +3443,6 @@
             "rotationY": 0,
             "rotationZ": -90,
             "width": 1,
-            "animations": []
-          }
-        },
-        {
-          "assetStoreId": "f3de18130b651c296923c8eb10085a5cee9e1ace008d2cd4fe98f64e63734ddb",
-          "name": "Enemy",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Physics3D",
-              "type": "Physics3D::Physics3DBehavior",
-              "object3D": "Object3D",
-              "bodyType": "Dynamic",
-              "bullet": false,
-              "fixedRotation": false,
-              "shape": "Box",
-              "meshShapeResourceName": "",
-              "shapeOrientation": "Z",
-              "shapeDimensionA": 0,
-              "shapeDimensionB": 0,
-              "shapeDimensionC": 0,
-              "shapeOffsetX": 0,
-              "shapeOffsetY": 0,
-              "shapeOffsetZ": 0,
-              "massCenterOffsetX": 0,
-              "massCenterOffsetY": 0,
-              "massCenterOffsetZ": 0,
-              "massOverride": 0,
-              "density": 1,
-              "friction": 0.3,
-              "restitution": 0.1,
-              "linearDamping": 0.1,
-              "angularDamping": 0.1,
-              "gravityScale": 1,
-              "layers": 17,
-              "masks": 17
-            }
-          ],
-          "content": {
-            "centerLocation": "ObjectCenter",
-            "crossfadeDuration": 0.10000000149011612,
-            "depth": 32,
-            "height": 32,
-            "isCastingShadow": true,
-            "isReceivingShadow": true,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Pirate Crew.glb",
-            "originLocation": "BottomCenterZ",
-            "rotationX": 90,
-            "rotationY": 0,
-            "rotationZ": -90,
-            "width": 32,
             "animations": []
           }
         },
@@ -4137,6 +4243,288 @@
             "width": 123,
             "animations": []
           }
+        },
+        {
+          "assetStoreId": "9d22df9109e756fcc6bb65eb15247dca83de8d518a1cb26decd7e3e16bd30bfc",
+          "name": "Innocent",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Box",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 189,
+            "height": 189,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Character Soldier Gun.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 189,
+            "animations": [
+              {
+                "loop": true,
+                "name": "Idle",
+                "source": "Idle"
+              },
+              {
+                "loop": true,
+                "name": "Walk",
+                "source": "Walk"
+              },
+              {
+                "loop": true,
+                "name": "Run",
+                "source": "Run"
+              },
+              {
+                "loop": false,
+                "name": "Duck",
+                "source": "Duck"
+              },
+              {
+                "loop": false,
+                "name": "Jump",
+                "source": "Jump"
+              },
+              {
+                "loop": false,
+                "name": "Punch",
+                "source": "Punch"
+              },
+              {
+                "loop": false,
+                "name": "Death",
+                "source": "Death"
+              },
+              {
+                "loop": false,
+                "name": "HitReact",
+                "source": "HitReact"
+              },
+              {
+                "loop": false,
+                "name": "IdleShoot",
+                "source": "Idle_Shoot"
+              },
+              {
+                "loop": true,
+                "name": "JumpIdle",
+                "source": "Jump_Idle"
+              },
+              {
+                "loop": false,
+                "name": "JumpLand",
+                "source": "Jump_Land"
+              },
+              {
+                "loop": false,
+                "name": "No",
+                "source": "No"
+              },
+              {
+                "loop": true,
+                "name": "RunGun",
+                "source": "Run_Gun"
+              },
+              {
+                "loop": false,
+                "name": "RunShoot",
+                "source": "Run_Shoot"
+              },
+              {
+                "loop": true,
+                "name": "WalkShoot",
+                "source": "Walk_Shoot"
+              },
+              {
+                "loop": false,
+                "name": "Wave",
+                "source": "Wave"
+              },
+              {
+                "loop": false,
+                "name": "Yes",
+                "source": "Yes"
+              }
+            ]
+          }
+        },
+        {
+          "assetStoreId": "934c149cf549c2227f146ef3358b69490a118f15ebb2be922ee8da1ee6341fab",
+          "name": "Enemy",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Dynamic",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Box",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 196,
+            "height": 196,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Character Enemy Gun.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 196,
+            "animations": [
+              {
+                "loop": true,
+                "name": "Idle",
+                "source": "Idle"
+              },
+              {
+                "loop": true,
+                "name": "Walk",
+                "source": "Walk"
+              },
+              {
+                "loop": true,
+                "name": "Run",
+                "source": "Run"
+              },
+              {
+                "loop": false,
+                "name": "Duck",
+                "source": "Duck"
+              },
+              {
+                "loop": false,
+                "name": "Jump",
+                "source": "Jump"
+              },
+              {
+                "loop": false,
+                "name": "Punch",
+                "source": "Punch"
+              },
+              {
+                "loop": false,
+                "name": "Death",
+                "source": "Death"
+              },
+              {
+                "loop": false,
+                "name": "HitReact",
+                "source": "HitReact"
+              },
+              {
+                "loop": false,
+                "name": "IdleShoot",
+                "source": "Idle_Shoot"
+              },
+              {
+                "loop": true,
+                "name": "JumpIdle",
+                "source": "Jump_Idle"
+              },
+              {
+                "loop": false,
+                "name": "JumpLand",
+                "source": "Jump_Land"
+              },
+              {
+                "loop": false,
+                "name": "No",
+                "source": "No"
+              },
+              {
+                "loop": true,
+                "name": "RunGun",
+                "source": "Run_Gun"
+              },
+              {
+                "loop": false,
+                "name": "RunShoot",
+                "source": "Run_Shoot"
+              },
+              {
+                "loop": true,
+                "name": "WalkShoot",
+                "source": "Walk_Shoot"
+              },
+              {
+                "loop": false,
+                "name": "Wave",
+                "source": "Wave"
+              },
+              {
+                "loop": false,
+                "name": "Yes",
+                "source": "Yes"
+              }
+            ]
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -4146,13 +4534,22 @@
             "folderName": "modèle importé",
             "children": [
               {
+                "objectName": "Sniper"
+              },
+              {
+                "objectName": "Sniper_Sprite_Layout_3D"
+              },
+              {
                 "objectName": "arbre"
               },
               {
-                "objectName": "Camera"
+                "objectName": "Enemy"
               },
               {
-                "objectName": "Enemy"
+                "objectName": "Innocent"
+              },
+              {
+                "objectName": "Camera"
               },
               {
                 "objectName": "balle"
@@ -4227,12 +4624,6 @@
           },
           {
             "objectName": "Chrono2"
-          },
-          {
-            "objectName": "Sniper_Sprite_Layout_3D"
-          },
-          {
-            "objectName": "Sniper"
           }
         ]
       },
@@ -6021,7 +6412,7 @@
                   },
                   "parameters": [
                     "",
-                    "Enemy",
+                    "Innocent",
                     "2000",
                     ""
                   ]

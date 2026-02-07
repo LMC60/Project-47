@@ -2041,7 +2041,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2486992217147803,
+        "zoomFactor": 0.14950721635454384,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "embedded-game"
@@ -2199,23 +2199,6 @@
           "x": -2079,
           "y": -325,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 898,
-          "keepRatio": true,
-          "layer": "Arme",
-          "name": "Sprite_Sniper_Layout",
-          "persistentUuid": "3d9dbb40-00e9-4c7c-ba63-1799cf606684",
-          "width": 1663,
-          "x": -2080,
-          "y": -1520,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2874,6 +2857,22 @@
           "x": 307,
           "y": 257,
           "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 17.9245283018868,
+          "layer": "Arme",
+          "name": "Sniper_Sprite_Layout_3D",
+          "persistentUuid": "8b76ce3f-d5b7-4c04-9cab-403bfd83f2e9",
+          "width": 100,
+          "x": 3410,
+          "y": 2053,
+          "z": -396.00000000000006,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3703,7 +3702,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "centerLocation": "ModelOrigin",
+            "centerLocation": "ObjectCenter",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 100,
             "height": 100,
@@ -3712,7 +3711,7 @@
             "keepAspectRatio": true,
             "materialType": "Basic",
             "modelResourceName": "assets\\Sniper.glb",
-            "originLocation": "ModelOrigin",
+            "originLocation": "ObjectCenter",
             "rotationX": 90,
             "rotationY": 0,
             "rotationZ": 90,
@@ -4276,7 +4275,7 @@
               },
               "parameters": [
                 "",
-                "\"80;227;194\"",
+                "\"154;255;252\"",
                 "tiled_background solid sky.png",
                 "",
                 "\"\"",
@@ -4935,7 +4934,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "Sprite_Sniper_Layout"
+                "Sniper_Sprite_Layout_3D"
               ]
             },
             {
@@ -5013,22 +5012,10 @@
             },
             {
               "type": {
-                "value": "CenterCameraOnObject"
-              },
-              "parameters": [
-                "",
-                "Sprite_Sniper_Layout",
-                "",
-                "\"Arme\"",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Show"
               },
               "parameters": [
-                "Sprite_Sniper_Layout",
+                "Sniper_Sprite_Layout_3D",
                 ""
               ]
             },
@@ -5142,6 +5129,86 @@
                 "Sniper_récupéré",
                 "True",
                 "+"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneJustBegins"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CenterCameraOnObject"
+              },
+              "parameters": [
+                "",
+                "Sniper_Sprite_Layout_3D",
+                "",
+                "\"Arme\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetXY"
+              },
+              "parameters": [
+                "Sniper_Sprite_Layout_3D",
+                "+",
+                "20",
+                "+",
+                "15"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Sniper_Sprite_Layout_3D"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetZ"
+              },
+              "parameters": [
+                "Sniper_Sprite_Layout_3D",
+                "Object3D",
+                "=",
+                "1220"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetRotationX"
+              },
+              "parameters": [
+                "Sniper_Sprite_Layout_3D",
+                "Object3D",
+                "=",
+                "90"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene3D::Base3DBehavior::SetRotationY"
+              },
+              "parameters": [
+                "Sniper_Sprite_Layout_3D",
+                "Object3D",
+                "=",
+                "-85"
               ]
             }
           ]
@@ -5306,7 +5373,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "Sprite_Sniper_Layout"
+                "Sniper_Sprite_Layout_3D"
               ]
             },
             {
@@ -5395,7 +5462,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "Sprite_Sniper_Layout"
+                "Sniper_Sprite_Layout_3D"
               ]
             },
             {
@@ -5484,7 +5551,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "Sprite_Sniper_Layout"
+                "Sniper_Sprite_Layout_3D"
               ]
             },
             {
@@ -5548,6 +5615,15 @@
                 "Menu",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono\""
+              ]
             }
           ]
         },
@@ -5571,6 +5647,15 @@
               },
               "parameters": [
                 "Menu"
+              ]
+            },
+            {
+              "type": {
+                "value": "UnPauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono\""
               ]
             }
           ]

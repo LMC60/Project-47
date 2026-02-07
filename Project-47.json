@@ -6708,6 +6708,16 @@
             },
             {
               "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Sniper_récupéré",
+                "False",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "PauseTimer"
               },
               "parameters": [
@@ -6846,6 +6856,16 @@
             },
             {
               "type": {
+                "inverted": true,
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+              },
+              "parameters": [
+                "RedFlatBar",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "BuiltinCommonInstructions::Once"
               },
               "parameters": []
@@ -6887,6 +6907,16 @@
               "parameters": [
                 "Enemy",
                 "Animation"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsEmpty"
+              },
+              "parameters": [
+                "RedFlatBar",
+                ""
               ]
             },
             {

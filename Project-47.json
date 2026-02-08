@@ -2322,7 +2322,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8670102015797507,
+        "zoomFactor": 0.3425615343430767,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -5194,7 +5194,7 @@
           "behaviors": [],
           "content": {
             "Rate": 3,
-            "ShakingOnHoverEnabled": true,
+            "ShakingOnHoverEnabled": false,
             "Disable": true,
             "Disabled": false
           }
@@ -8283,12 +8283,6 @@
                 "=",
                 "\"Death\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -8338,12 +8332,6 @@
                 "=",
                 "\"Death\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -8395,12 +8383,6 @@
                 "=",
                 "\"Death\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -8452,12 +8434,6 @@
                 "=",
                 "\"Death\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -8498,12 +8474,6 @@
                 "=",
                 "\"Death\""
               ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
             }
           ],
           "actions": [
@@ -9459,23 +9429,6 @@
           "y": 1319,
           "z": -449.0288208728523,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 447,
-          "keepRatio": true,
-          "layer": "Talkie",
-          "name": "TexteTalkie",
-          "persistentUuid": "c5e99505-b0ab-4b2c-a6a8-68d5e4bbacd1",
-          "width": 1097,
-          "x": 628,
-          "y": 544,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []

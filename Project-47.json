@@ -1769,6 +1769,48 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Terrain/3822dec39b16fd3c1767f113a4e99024533cec47dc38fe0664902ca2a6950ce9_9patch_Wood 9Patch_all_16.png",
           "name": "9patch_Wood 9Patch_all_16.png"
         }
+      },
+      {
+        "file": "Début Lotissement.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Début Lotissement.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ROUTESglb.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ROUTESglb.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ROUTESglb2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ROUTESglb2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/Début Lotissement.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Début Lotissement.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/ROUTES_1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\ROUTES_1.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/ROUTES_2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\ROUTES_2.glb",
+        "userAdded": false
       }
     ]
   },
@@ -5251,11 +5293,190 @@
             "HoveredFadeOutDuration": 0.2,
             "LabelText": "Recommencer"
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "route_1",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\Début Lotissement.glb",
+            "originLocation": "ObjectCenter",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "route_2",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\ROUTES_1.glb",
+            "originLocation": "ObjectCenter",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "route_3",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\ROUTES_2.glb",
+            "originLocation": "ObjectCenter",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Routes",
+            "children": [
+              {
+                "objectName": "route_1"
+              },
+              {
+                "objectName": "route_2"
+              },
+              {
+                "objectName": "route_3"
+              }
+            ]
+          },
           {
             "folderName": "modèle importé",
             "children": [
@@ -8926,10 +9147,10 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3541128223539178,
+        "zoomFactor": 0.23009220400870986,
         "windowMask": false,
         "selectedLayer": "",
-        "gameEditorMode": "instances-editor"
+        "gameEditorMode": "embedded-game"
       },
       "objectsGroups": [
         {
@@ -9017,6 +9238,26 @@
             },
             {
               "name": "Cible_Nom"
+            }
+          ]
+        },
+        {
+          "name": "Fin",
+          "objects": [
+            {
+              "name": "WhiteAndYellowStarRating"
+            },
+            {
+              "name": "Wood_9Patch"
+            },
+            {
+              "name": "Mission_Accomplie"
+            },
+            {
+              "name": "Niveau"
+            },
+            {
+              "name": "Recommencer"
             }
           ]
         }
@@ -9225,6 +9466,23 @@
         {
           "angle": 0,
           "customSize": true,
+          "depth": 32,
+          "height": 447,
+          "keepRatio": true,
+          "layer": "Talkie",
+          "name": "TexteTalkie",
+          "persistentUuid": "c5e99505-b0ab-4b2c-a6a8-68d5e4bbacd1",
+          "width": 1097,
+          "x": 628,
+          "y": 544,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
           "depth": 258,
           "height": 378,
           "keepRatio": true,
@@ -9268,6 +9526,89 @@
           "x": 1247,
           "y": -50,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "WhiteAndYellowStarRating",
+          "persistentUuid": "066cd936-f502-4dcf-aa44-10ff40848087",
+          "width": 0,
+          "x": 605,
+          "y": 1881,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 801,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "Wood_9Patch",
+          "persistentUuid": "6c494416-03f8-4d91-ae80-8ad8fcfe7582",
+          "width": 1059,
+          "x": 218,
+          "y": 1591,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "Mission_Accomplie",
+          "persistentUuid": "66ba8a66-a564-4223-bfdc-4931f6bd0989",
+          "width": 0,
+          "x": 396,
+          "y": 1677,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "Niveau",
+          "persistentUuid": "730a8d5c-3b5b-4af3-a92e-16e9dc91a9ff",
+          "width": 321,
+          "x": 583,
+          "y": 2029,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "Recommencer",
+          "persistentUuid": "07621e27-4225-41c0-8edf-0d4697a7442d",
+          "width": 323,
+          "x": 583,
+          "y": 2234,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10955,19 +11296,298 @@
           }
         },
         {
-          "assetStoreId": "9d5de415b6e469c681701ea42d3b1c486fee31d6ef591a2d3e226f639ab486ff",
-          "name": "TexteTalkie2",
-          "type": "TwoChoicesDialogBoxes::TwoChoicesDialogBox",
-          "variant": "Semi-transparent black and white",
+          "assetStoreId": "133fa76fc0fe4e2f4d7a6220abcb2a3ff8ea85ee11392c625b2d8710415f9f5d",
+          "name": "WhiteAndYellowStarRating",
+          "type": "StarRatingBar::StarRatingBar",
+          "variant": "White and yellow star",
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "content": {}
+          "content": {
+            "Rate": 3,
+            "ShakingOnHoverEnabled": true,
+            "Disable": true,
+            "Disabled": false
+          }
+        },
+        {
+          "assetStoreId": "3e56813675876f13850daf2ed490547f41632560b706af19a8ff9eb0f030315c",
+          "bottomMargin": 16,
+          "height": 48,
+          "leftMargin": 16,
+          "name": "Wood_9Patch",
+          "rightMargin": 16,
+          "texture": "9patch_Wood 9Patch_all_16.png",
+          "tiled": true,
+          "topMargin": 16,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 48,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Mission_Accomplie",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Mission Accomplie",
+          "font": "spyagency.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "153;153;153",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Mission Accomplie",
+            "font": "spyagency.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
+          "name": "Niveau",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "On Screen Controls Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 1,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "Niveau Suivant"
+          }
+        },
+        {
+          "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
+          "name": "Recommencer",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "On Screen Controls Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 1,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "Recommencer"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "route_1",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\Début Lotissement.glb",
+            "originLocation": "ObjectCenter",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "route_2",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\ROUTES_1.glb",
+            "originLocation": "ObjectCenter",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "route_3",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\ROUTES_2.glb",
+            "originLocation": "ObjectCenter",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Routes",
+            "children": [
+              {
+                "objectName": "route_1"
+              },
+              {
+                "objectName": "route_2"
+              },
+              {
+                "objectName": "route_3"
+              }
+            ]
+          },
           {
             "folderName": "modèle importé",
             "children": [
@@ -11079,7 +11699,19 @@
             "objectName": "Default_TransparentBorder_6"
           },
           {
-            "objectName": "TexteTalkie2"
+            "objectName": "WhiteAndYellowStarRating"
+          },
+          {
+            "objectName": "Wood_9Patch"
+          },
+          {
+            "objectName": "Mission_Accomplie"
+          },
+          {
+            "objectName": "Niveau"
+          },
+          {
+            "objectName": "Recommencer"
           }
         ]
       },
@@ -11149,6 +11781,14 @@
                 "Camera",
                 "Flippable",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Fin"
               ]
             }
           ]
@@ -12554,7 +13194,16 @@
                 "value": "Visible"
               },
               "parameters": [
-                "TexteTalkie2"
+                "TexteTalkie"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Visible"
+              },
+              "parameters": [
+                "Fin"
               ]
             }
           ],
@@ -12778,7 +13427,7 @@
                 "value": "Show"
               },
               "parameters": [
-                "TexteTalkie2",
+                "TexteTalkie",
                 ""
               ]
             },
@@ -12855,7 +13504,7 @@
                 "value": "Visible"
               },
               "parameters": [
-                "TexteTalkie2"
+                "TexteTalkie"
               ]
             }
           ],
@@ -13280,6 +13929,26 @@
                 "100",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Talkie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Sniper_récupéré",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -13326,38 +13995,69 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "MousePointerLock::ExitPointerLock"
               },
               "parameters": [
-                "Talkie",
-                "True",
+                "",
                 ""
               ]
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "CenterCameraOnObject"
               },
               "parameters": [
-                "Sniper_récupéré",
-                "False",
+                "Fin",
+                "Fin",
+                "",
+                "\"Fin\"",
                 ""
               ]
             },
             {
               "type": {
-                "value": "Wait"
+                "value": "Show"
               },
               "parameters": [
-                "4"
+                "Fin",
+                ""
               ]
             },
             {
               "type": {
-                "value": "Quit"
+                "value": "SetY"
               },
               "parameters": [
-                ""
+                "Fin",
+                "-",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono\""
               ]
             }
           ]
@@ -13388,7 +14088,7 @@
                     "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsYesClicked"
                   },
                   "parameters": [
-                    "TexteTalkie2",
+                    "TexteTalkie",
                     ""
                   ]
                 },
@@ -13397,7 +14097,7 @@
                     "value": "TwoChoicesDialogBoxes::TwoChoicesDialogBox::IsNoClicked"
                   },
                   "parameters": [
-                    "TexteTalkie2",
+                    "TexteTalkie",
                     ""
                   ]
                 }
@@ -13410,7 +14110,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "TexteTalkie2"
+                "TexteTalkie"
               ]
             },
             {
@@ -13471,7 +14171,7 @@
               },
               "parameters": [
                 "",
-                "TexteTalkie2",
+                "TexteTalkie",
                 "",
                 "\"Talkie\"",
                 ""
@@ -13482,7 +14182,7 @@
                 "value": "Hide"
               },
               "parameters": [
-                "TexteTalkie2"
+                "TexteTalkie"
               ]
             },
             {
@@ -13490,7 +14190,7 @@
                 "value": "SetY"
               },
               "parameters": [
-                "TexteTalkie2",
+                "TexteTalkie",
                 "+",
                 "270"
               ]
@@ -13526,6 +14226,14 @@
               },
               "parameters": [
                 "Menu"
+              ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Fin"
               ]
             }
           ],
@@ -13642,9 +14350,371 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 47,
+            "g": 129,
+            "r": 61,
+            "textB": 255,
+            "textG": 246,
+            "textR": 0
+          },
+          "comment": "Notation"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "RedFlatBar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "chrono",
+                ">=",
+                "300",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "RedFlatBar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "chrono",
+                "<",
+                "300",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "4",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "chrono",
+                ">=",
+                "240",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "chrono",
+                "<",
+                "240",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Fin"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MousePointerLock::ExitPointerLock"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "Niveau",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Paris\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "Recommencer",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Salle de test\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -14015,6 +15085,60 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Menu",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fin",
           "renderingType": "",
           "visibility": true,
           "cameras": [],

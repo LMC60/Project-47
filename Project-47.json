@@ -1721,6 +1721,54 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Borders/32c7c63733deecdcd83d07ac42c057cb97bf0e988e4b25dd4f1cba4a497b1064_Default-panel-transparent-border (7).png",
           "name": "Default-panel-transparent-border (7).png"
         }
+      },
+      {
+        "file": "assets/White Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "White Background.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Star Rating Bars/8778e2bed0a56aaac3124fbd7ae8cfc6f413e2a77f2f62c887b5d07481f31833_White Background.png",
+          "name": "White Background.png"
+        }
+      },
+      {
+        "file": "assets/Star Gold Disabled.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star Gold Disabled.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Star Rating Bars/6c0b54b669e7828d474a84d72f21b50f987f5d01c82c2d68412a83f02785cdb4_Star Gold Disabled.png",
+          "name": "Star Gold Disabled.png"
+        }
+      },
+      {
+        "file": "assets/Star Gold.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Star Gold.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Star Rating Bars/dabcb55a15ef675dc4d7249e84fc15a5eae362e66b8d752f3982be15a36683a9_Star Gold.png",
+          "name": "Star Gold.png"
+        }
+      },
+      {
+        "file": "assets/9patch_Wood 9Patch_all_16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Wood 9Patch_all_16.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Terrain/3822dec39b16fd3c1767f113a4e99024533cec47dc38fe0664902ca2a6950ce9_9patch_Wood 9Patch_all_16.png",
+          "name": "9patch_Wood 9Patch_all_16.png"
+        }
       }
     ]
   },
@@ -2232,10 +2280,10 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.9865552458681073,
+        "zoomFactor": 0.8670102015797507,
         "windowMask": false,
         "selectedLayer": "",
-        "gameEditorMode": "embedded-game"
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -2323,6 +2371,26 @@
             },
             {
               "name": "Cible_Nom"
+            }
+          ]
+        },
+        {
+          "name": "Fin",
+          "objects": [
+            {
+              "name": "WhiteAndYellowStarRating"
+            },
+            {
+              "name": "Wood_9Patch"
+            },
+            {
+              "name": "Mission_Accomplie"
+            },
+            {
+              "name": "Niveau"
+            },
+            {
+              "name": "Recommencer"
             }
           ]
         }
@@ -3305,6 +3373,89 @@
           "x": 1247,
           "y": -50,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "WhiteAndYellowStarRating",
+          "persistentUuid": "066cd936-f502-4dcf-aa44-10ff40848087",
+          "width": 0,
+          "x": 605,
+          "y": 1881,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 801,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "Wood_9Patch",
+          "persistentUuid": "6c494416-03f8-4d91-ae80-8ad8fcfe7582",
+          "width": 1059,
+          "x": 218,
+          "y": 1591,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "Mission_Accomplie",
+          "persistentUuid": "66ba8a66-a564-4223-bfdc-4931f6bd0989",
+          "width": 0,
+          "x": 396,
+          "y": 1677,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "Niveau",
+          "persistentUuid": "730a8d5c-3b5b-4af3-a92e-16e9dc91a9ff",
+          "width": 321,
+          "x": 583,
+          "y": 2029,
+          "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 64,
+          "height": 82,
+          "keepRatio": true,
+          "layer": "Fin",
+          "name": "Recommencer",
+          "persistentUuid": "07621e27-4225-41c0-8edf-0d4697a7442d",
+          "width": 323,
+          "x": 583,
+          "y": 2234,
+          "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4990,6 +5141,116 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "assetStoreId": "133fa76fc0fe4e2f4d7a6220abcb2a3ff8ea85ee11392c625b2d8710415f9f5d",
+          "name": "WhiteAndYellowStarRating",
+          "type": "StarRatingBar::StarRatingBar",
+          "variant": "White and yellow star",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "Rate": 3,
+            "ShakingOnHoverEnabled": true,
+            "Disable": true,
+            "Disabled": false
+          }
+        },
+        {
+          "assetStoreId": "3e56813675876f13850daf2ed490547f41632560b706af19a8ff9eb0f030315c",
+          "bottomMargin": 16,
+          "height": 48,
+          "leftMargin": 16,
+          "name": "Wood_9Patch",
+          "rightMargin": 16,
+          "texture": "9patch_Wood 9Patch_all_16.png",
+          "tiled": true,
+          "topMargin": 16,
+          "type": "PanelSpriteObject::PanelSprite",
+          "width": 48,
+          "variables": [],
+          "effects": [],
+          "behaviors": []
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "Mission_Accomplie",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Mission Accomplie",
+          "font": "spyagency.ttf",
+          "textAlignment": "left",
+          "characterSize": 60,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": true,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "153;153;153",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Mission Accomplie",
+            "font": "spyagency.ttf",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 60,
+            "lineHeight": 0,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
+          "name": "Niveau",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "On Screen Controls Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 1,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "Niveau Suivant"
+          }
+        },
+        {
+          "assetStoreId": "26f7912e497fefccd32817a0c24533c9304633b47c6e556065dc498219877e81",
+          "name": "Recommencer",
+          "type": "PanelSpriteButton::PanelSpriteButton",
+          "variant": "On Screen Controls Button",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "LeftPadding": 0,
+            "RightPadding": 0,
+            "PressedLabelOffsetY": 1,
+            "BottomPadding": 0,
+            "TopPadding": 0,
+            "HoveredFadeOutDuration": 0.2,
+            "LabelText": "Recommencer"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -5104,6 +5365,21 @@
           },
           {
             "objectName": "Default_TransparentBorder_6"
+          },
+          {
+            "objectName": "WhiteAndYellowStarRating"
+          },
+          {
+            "objectName": "Wood_9Patch"
+          },
+          {
+            "objectName": "Mission_Accomplie"
+          },
+          {
+            "objectName": "Niveau"
+          },
+          {
+            "objectName": "Recommencer"
           }
         ]
       },
@@ -5173,6 +5449,14 @@
                 "Camera",
                 "Flippable",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "Fin"
               ]
             }
           ]
@@ -6580,6 +6864,15 @@
               "parameters": [
                 "TexteTalkie"
               ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "Visible"
+              },
+              "parameters": [
+                "Fin"
+              ]
             }
           ],
           "actions": [
@@ -7304,6 +7597,26 @@
                 "100",
                 "1"
               ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Talkie",
+                "True",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetBooleanVariable"
+              },
+              "parameters": [
+                "Sniper_récupéré",
+                "False",
+                ""
+              ]
             }
           ]
         },
@@ -7350,38 +7663,69 @@
           "actions": [
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "MousePointerLock::ExitPointerLock"
               },
               "parameters": [
-                "Talkie",
-                "True",
+                "",
                 ""
               ]
             },
             {
               "type": {
-                "value": "SetBooleanVariable"
+                "value": "CenterCameraOnObject"
               },
               "parameters": [
-                "Sniper_récupéré",
-                "False",
+                "Fin",
+                "Fin",
+                "",
+                "\"Fin\"",
                 ""
               ]
             },
             {
               "type": {
-                "value": "Wait"
+                "value": "Show"
               },
               "parameters": [
-                "4"
+                "Fin",
+                ""
               ]
             },
             {
               "type": {
-                "value": "Quit"
+                "value": "SetY"
               },
               "parameters": [
-                ""
+                "Fin",
+                "-",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono\""
               ]
             }
           ]
@@ -7551,6 +7895,14 @@
               "parameters": [
                 "Menu"
               ]
+            },
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Fin"
+              ]
             }
           ],
           "actions": [
@@ -7666,9 +8018,371 @@
           ]
         },
         {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 47,
+            "g": 129,
+            "r": 61,
+            "textB": 255,
+            "textG": 246,
+            "textR": 0
+          },
+          "comment": "Notation"
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "RedFlatBar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "chrono",
+                ">=",
+                "300",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "5",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::IsFull"
+              },
+              "parameters": [
+                "RedFlatBar",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "chrono",
+                "<",
+                "300",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "4",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "chrono",
+                ">=",
+                "240",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "3",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "chrono",
+                "<",
+                "240",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "2",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::Value"
+              },
+              "parameters": [
+                "RedFlatBar",
+                "=",
+                "1",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Name"
+              },
+              "parameters": [
+                "Enemy",
+                "Animation",
+                "=",
+                "\"Death\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "StarRatingBar::StarRatingBar::SetRate"
+              },
+              "parameters": [
+                "WhiteAndYellowStarRating",
+                "=",
+                "1",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Visible"
+              },
+              "parameters": [
+                "Fin"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MousePointerLock::ExitPointerLock"
+              },
+              "parameters": [
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"Chrono\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "Niveau",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Paris\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "PanelSpriteButton::PanelSpriteButton::IsPressed"
+              },
+              "parameters": [
+                "Recommencer",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Salle de test\"",
+                ""
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -8079,6 +8793,60 @@
               }
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Fin",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -8158,10 +8926,10 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.9865552458681073,
+        "zoomFactor": 0.3541128223539178,
         "windowMask": false,
         "selectedLayer": "",
-        "gameEditorMode": "embedded-game"
+        "gameEditorMode": "instances-editor"
       },
       "objectsGroups": [
         {
@@ -8450,23 +9218,6 @@
           "y": 1319,
           "z": -449.0288208728523,
           "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 32,
-          "height": 447,
-          "keepRatio": true,
-          "layer": "Talkie",
-          "name": "TexteTalkie",
-          "persistentUuid": "c5e99505-b0ab-4b2c-a6a8-68d5e4bbacd1",
-          "width": 1097,
-          "x": 628,
-          "y": 544,
-          "zOrder": 15,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -81380,6 +82131,3782 @@
                   "numberProperties": [],
                   "stringProperties": [],
                   "initialVariables": []
+                }
+              ],
+              "editionSettings": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "author": "",
+      "category": "User interface",
+      "extensionNamespace": "",
+      "fullName": "Star Rating Bar",
+      "gdevelopVersion": ">=5.5.222",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXN0YXItaGFsZi1mdWxsIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDE1LjRWNi4xTDEzLjcxLDEwLjEzTDE4LjA5LDEwLjVMMTQuNzcsMTMuMzlMMTUuNzYsMTcuNjdNMjIsOS4yNEwxNC44MSw4LjYzTDEyLDJMOS4xOSw4LjYzTDIsOS4yNEw3LjQ1LDEzLjk3TDUuODIsMjFMMTIsMTcuMjdMMTguMTgsMjFMMTYuNTQsMTMuOTdMMjIsOS4yNFoiIC8+PC9zdmc+",
+      "name": "StarRatingBar",
+      "previewIconUrl": "https://asset-resources.gdevelop.io/public-resources/Icons/745c5811a2856b9b828e959b496d50dd52e0b5879f372e411675f38a5708775d_star-half-full.svg",
+      "shortDescription": "An animated bar to rate out of 5.",
+      "version": "1.2.1",
+      "description": [
+        "An animated bar to rate out of 5, or more by editing and adding more stars in the object.",
+        "The animation can be disabled.",
+        "The star icon and background are customizable.",
+        "",
+        "There are ready-to-use bars in the asset-store [star rating bars pack](https://editor.gdevelop.io/?initial-dialog=asset-store&asset-pack=star-rating-bars-star-rating-bars)."
+      ],
+      "origin": {
+        "identifier": "StarRatingBar",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "rate",
+        "score",
+        "display"
+      ],
+      "authorIds": [
+        "2OwwM8ToR9dx9RJ2sAKTcrLmCB92"
+      ],
+      "dependencies": [],
+      "globalVariables": [],
+      "sceneVariables": [
+        {
+          "name": "State",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "eventsFunctions": [
+        {
+          "description": "Check if the events are running for the editor.",
+          "fullName": "Editor is running",
+          "functionType": "Condition",
+          "name": "IsInGameEdition",
+          "private": true,
+          "sentence": "Events are running for the editor",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const game = runtimeScene.getGame();\r",
+                "eventsFunctionContext.returnValue = game.isInGameEdition && game.isInGameEdition();"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Shake objects with translation, rotation and scale.",
+          "fullName": "Shake object (position, angle, scale)",
+          "name": "ShakeObject_PositionAngleScale",
+          "objectType": "",
+          "private": true,
+          "eventsFunctions": [
+            {
+              "description": "Shake an object, using one or more ways to shake (position, angle, scale). Make sure to \"Stop shaking\" before starting a new shake if it uses different parameters.",
+              "fullName": "Shake object (position, angle, scale)",
+              "functionType": "Action",
+              "name": "ShakeObject_PositionAngleScale",
+              "sentence": "Shake object _PARAM0_ for _PARAM2_ seconds. Modify position amplitude _PARAM3_ on X axis and _PARAM4_ on Y axis, angle rotation amplitude _PARAM5_, and scale amplitude _PARAM6_.  Wait _PARAM7_ seconds between shakes.  Keep shaking until stopped: _PARAM8_",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Shake Object",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Start/Reset duration timer"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ResetObjectTimer"
+                          },
+                          "parameters": [
+                            "Object",
+                            "\"__ShakeObject_DurationTimer\""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Pass input parameters to global variables so that onScenePostEvents can use them"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_Duration",
+                            "=",
+                            "Duration"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_PowerX",
+                            "=",
+                            "PowerX"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_PowerY",
+                            "=",
+                            "PowerY"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_PowerAngle",
+                            "=",
+                            "PowerAngle"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_PowerScale",
+                            "=",
+                            "PowerScale"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_TimeBetweenShakes",
+                            "=",
+                            "TimeBetweenShakes"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Determine if the shake should keep going until stopped"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_ShakeForever",
+                            "False"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "ShakeForever",
+                            "True",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SetObjectVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_ShakeForever",
+                            "True"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Add default values if none were provided"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_Duration",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_Duration",
+                            "=",
+                            "0.5"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_TimeBetweenShakes",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_TimeBetweenShakes",
+                            "=",
+                            "0.08"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "If duration is less than a single shake, increase duration to make 1 full shake"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_Duration",
+                            "<",
+                            "Object.Variable(__ShakeObject_TimeBetweenShakes)"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_Duration",
+                            "=",
+                            "Object.Variable(__ShakeObject_TimeBetweenShakes)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Detect initial shake"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_ShakeInProgress",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_InitialShake",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Initiate the onScenePostEvents function"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__ShakeObject_ShakeInProgress",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "StarRatingBar::ShakeObject_PositionAngleScale",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Duration of shake (in seconds) (Default: 0.5)",
+                  "name": "Duration",
+                  "type": "expression"
+                },
+                {
+                  "description": "Amplitude of postion shake in X direction (in pixels)  (For example: 5)",
+                  "name": "PowerX",
+                  "type": "expression"
+                },
+                {
+                  "description": "Amplitude of position shake in Y direction (in pixels)  (For example: 5)",
+                  "longDescription": "Use a negative number to make the single-shake move in the opposite direction.",
+                  "name": "PowerY",
+                  "type": "expression"
+                },
+                {
+                  "description": "Amplitude of angle rotation shake (in degrees)  (For example: 5)",
+                  "name": "PowerAngle",
+                  "type": "expression"
+                },
+                {
+                  "description": "Amplitude of scale shake (in percent change)  (For example: 5)",
+                  "name": "PowerScale",
+                  "type": "expression"
+                },
+                {
+                  "description": "Amount of time between shakes (in seconds) (Default: 0.08)",
+                  "longDescription": "For a single-shake effect, set it to the same value as \"Duration\".",
+                  "name": "TimeBetweenShakes",
+                  "type": "expression"
+                },
+                {
+                  "description": "Keep shaking until stopped",
+                  "longDescription": "Duration value will be ignored",
+                  "name": "ShakeForever",
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Shake Object",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Start shaking",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "VarObjet"
+                              },
+                              "parameters": [
+                                "Object",
+                                "__ShakeObject_ShakeInProgress",
+                                "=",
+                                "1"
+                              ]
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Comment",
+                              "color": {
+                                "b": 109,
+                                "g": 230,
+                                "r": 255,
+                                "textB": 0,
+                                "textG": 0,
+                                "textR": 0
+                              },
+                              "comment": "Keep object shaking forever (if desired)"
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "ObjectVariableAsBoolean"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "__ShakeObject_ShakeForever",
+                                    "True"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ModVarObjet"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "__ShakeObject_Duration",
+                                    "=",
+                                    "100"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "ResetObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"__ShakeObject_DurationTimer\""
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Calculate movement of the shake",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Run once before every shake movement"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Or"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "VarObjet"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "__ShakeObject_InitialShake",
+                                            "=",
+                                            "1"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "ObjectTimer"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "\"__ShakeObject_ShakeTimer\"",
+                                            "Object.Variable(__ShakeObject_TimeBetweenShakes)"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ResetObjectTimer"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "\"__ShakeObject_ShakeTimer\""
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "__ShakeObject_ShakeCounter",
+                                        "+",
+                                        "1"
+                                      ]
+                                    }
+                                  ],
+                                  "events": [
+                                    {
+                                      "colorB": 228,
+                                      "colorG": 176,
+                                      "colorR": 74,
+                                      "creationTime": 0,
+                                      "folded": true,
+                                      "name": "Correct for drift and reset drift tracking variables",
+                                      "source": "",
+                                      "type": "BuiltinCommonInstructions::Group",
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Move to correct any drift from previous shake"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "BuiltinCommonInstructions::Or"
+                                              },
+                                              "parameters": [],
+                                              "subInstructions": [
+                                                {
+                                                  "type": {
+                                                    "value": "VarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_PowerX",
+                                                    "!=",
+                                                    "0"
+                                                  ]
+                                                },
+                                                {
+                                                  "type": {
+                                                    "value": "VarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_PowerY",
+                                                    "!=",
+                                                    "0"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "MettreX"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "-",
+                                                "Object.Variable(__ShakeObject_DisplacementTravelledX)"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "MettreY"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "-",
+                                                "Object.Variable(__ShakeObject_DisplacementTravelledY)"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_PowerAngle",
+                                                "!=",
+                                                "0"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "SetAngle"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "-",
+                                                "Object.Variable(__ShakeObject_AngleTravelled)"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_PowerScale",
+                                                "!=",
+                                                "0"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ScalableCapability::ScalableBehavior::SetValue"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "Scale",
+                                                "-",
+                                                "Object.Variable(__ShakeObject_ScaleTravelled)"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Reset drift detection variables"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementTravelledX",
+                                                "=",
+                                                "0"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementTravelledY",
+                                                "=",
+                                                "0"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_AngleTravelled",
+                                                "=",
+                                                "0"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_ScaleTravelled",
+                                                "=",
+                                                "0"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "parameters": []
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Calculate Position Shake"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Or"
+                                          },
+                                          "parameters": [],
+                                          "subInstructions": [
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_PowerX",
+                                                "!=",
+                                                "0"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_PowerY",
+                                                "!=",
+                                                "0"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "PositionDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude * [-1 or 1]"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Make initial shake NOT random so users can set a direction for a one-shake effect"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_InitialShake",
+                                                "=",
+                                                "1"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "VarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_PowerX",
+                                                    "!=",
+                                                    "0"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "ModVarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_DisplacementX",
+                                                    "=",
+                                                    "(Object.Variable(__ShakeObject_Duration) - Object.ObjectTimerElapsedTime(\"__ShakeObject_DurationTimer\")) / Object.Variable(__ShakeObject_Duration) * Object.Variable(__ShakeObject_PowerX)"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "VarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_PowerY",
+                                                    "!=",
+                                                    "0"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "ModVarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_DisplacementY",
+                                                    "=",
+                                                    "(Object.Variable(__ShakeObject_Duration) - Object.ObjectTimerElapsedTime(\"__ShakeObject_DurationTimer\")) / Object.Variable(__ShakeObject_Duration) * Object.Variable(__ShakeObject_PowerY)"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "After initial shake pick a random direction"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_InitialShake",
+                                                "=",
+                                                "0"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "events": [
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "VarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_PowerX",
+                                                    "!=",
+                                                    "0"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "ModVarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_DisplacementX",
+                                                    "=",
+                                                    "(Object.Variable(__ShakeObject_Duration) - Object.ObjectTimerElapsedTime(\"__ShakeObject_DurationTimer\")) / Object.Variable(__ShakeObject_Duration) * Object.Variable(__ShakeObject_PowerX) * RandomWithStep(-1, 1, 2)"
+                                                  ]
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "type": "BuiltinCommonInstructions::Standard",
+                                              "conditions": [
+                                                {
+                                                  "type": {
+                                                    "value": "VarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_PowerY",
+                                                    "!=",
+                                                    "0"
+                                                  ]
+                                                }
+                                              ],
+                                              "actions": [
+                                                {
+                                                  "type": {
+                                                    "value": "ModVarObjet"
+                                                  },
+                                                  "parameters": [
+                                                    "Object",
+                                                    "__ShakeObject_DisplacementY",
+                                                    "=",
+                                                    "(Object.Variable(__ShakeObject_Duration) - Object.ObjectTimerElapsedTime(\"__ShakeObject_DurationTimer\")) / Object.Variable(__ShakeObject_Duration) * Object.Variable(__ShakeObject_PowerY) * RandomWithStep(-1, 1, 2)"
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Calculate Rotation (angle) shake "
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "VarObjet"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "__ShakeObject_PowerAngle",
+                                            "!=",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Every \"even\" shake, rotate clockwise"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "Egal"
+                                              },
+                                              "parameters": [
+                                                "mod(Object.Variable(__ShakeObject_ShakeCounter),2)",
+                                                "=",
+                                                "0"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementAngle",
+                                                "=",
+                                                "-1 * (Object.Variable(__ShakeObject_Duration) - Object.ObjectTimerElapsedTime(\"__ShakeObject_DurationTimer\")) / Object.Variable(__ShakeObject_Duration) *  Object.Variable(__ShakeObject_PowerAngle)"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Every \"odd\" shake, rotate counter-clockwise"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "AngleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "Egal"
+                                              },
+                                              "parameters": [
+                                                "mod(Object.Variable(__ShakeObject_ShakeCounter),2)",
+                                                "=",
+                                                "1"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementAngle",
+                                                "=",
+                                                "(Object.Variable(__ShakeObject_Duration) - Object.ObjectTimerElapsedTime(\"__ShakeObject_DurationTimer\")) / Object.Variable(__ShakeObject_Duration) *  Object.Variable(__ShakeObject_PowerAngle)"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Calculate Scale shake"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "VarObjet"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "__ShakeObject_PowerScale",
+                                            "!=",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Calculate object scale displacement, with linear decay over time"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "ScaleDisplacement = (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Every even shake, increase scale"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "Egal"
+                                              },
+                                              "parameters": [
+                                                "mod(Object.Variable(__ShakeObject_ShakeCounter),2)",
+                                                "=",
+                                                "0"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementScale",
+                                                "=",
+                                                "-1 * (Object.Variable(__ShakeObject_Duration) - Object.ObjectTimerElapsedTime(\"__ShakeObject_DurationTimer\")) / Object.Variable(__ShakeObject_Duration) * Object.Variable(__ShakeObject_PowerScale) * (1/100)"
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Every \"odd\" shake, decrease scale"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "ScaleDisplacement = -1 * (DesiredDuration - RunningTimer) / DesiredDuration * Amplitude *  1/100"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [
+                                            {
+                                              "type": {
+                                                "value": "Egal"
+                                              },
+                                              "parameters": [
+                                                "mod(Object.Variable(__ShakeObject_ShakeCounter),2)",
+                                                "=",
+                                                "1"
+                                              ]
+                                            }
+                                          ],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementScale",
+                                                "=",
+                                                "(Object.Variable(__ShakeObject_Duration) - Object.ObjectTimerElapsedTime(\"__ShakeObject_DurationTimer\")) / Object.Variable(__ShakeObject_Duration) * Object.Variable(__ShakeObject_PowerScale) * (1/100)"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Save that initial shake has been processed"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "ModVarObjet"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "__ShakeObject_InitialShake",
+                                            "=",
+                                            "0"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            },
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Move object",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Calculate the fraction of shake that occured during this frame"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "__ShakeObject_PercentTimeElapsedThisFrame",
+                                        "=",
+                                        "min(1,TimeDelta()/Object.Variable(__ShakeObject_TimeBetweenShakes))"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Increase change for the first half of the shake (move away from original values)"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "inverted": true,
+                                        "value": "ObjectTimer"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "\"__ShakeObject_ShakeTimer\"",
+                                        "Object.Variable(__ShakeObject_TimeBetweenShakes)/2"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Change position"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Or"
+                                          },
+                                          "parameters": [],
+                                          "subInstructions": [
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_PowerX",
+                                                "!=",
+                                                "0"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_PowerY",
+                                                "!=",
+                                                "0"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "MettreX"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "+",
+                                            "round(1024 * Object.Variable(__ShakeObject_DisplacementX) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "MettreY"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "+",
+                                            "round(1024 * Object.Variable(__ShakeObject_DisplacementY) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Save movement to calculate drift"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementTravelledX",
+                                                "+",
+                                                "round(1024 * Object.Variable(__ShakeObject_DisplacementX) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementTravelledY",
+                                                "+",
+                                                "round(1024 * Object.Variable(__ShakeObject_DisplacementY) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Change angle"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "Egal"
+                                          },
+                                          "parameters": [
+                                            "Object.Variable(__ShakeObject_PowerAngle)",
+                                            "!=",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "+",
+                                            "round(1024 * Object.Variable(__ShakeObject_DisplacementAngle) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Save movement to calculate drift"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_AngleTravelled",
+                                                "+",
+                                                "round(1024 * Object.Variable(__ShakeObject_DisplacementAngle) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Change scale"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "Egal"
+                                          },
+                                          "parameters": [
+                                            "Object.Variable(__ShakeObject_PowerScale)",
+                                            "!=",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "Scale",
+                                            "+",
+                                            "round(1024 * Object.Variable(__ShakeObject_DisplacementScale) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Save movement to calculate drift"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_ScaleTravelled",
+                                                "+",
+                                                "round(1024 * Object.Variable(__ShakeObject_DisplacementScale) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Decrease change the second half of the shake (return to original position)"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "ObjectTimer"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "\"__ShakeObject_ShakeTimer\"",
+                                        "Object.Variable(__ShakeObject_TimeBetweenShakes)/2"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "events": [
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Change position"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "BuiltinCommonInstructions::Or"
+                                          },
+                                          "parameters": [],
+                                          "subInstructions": [
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_PowerX",
+                                                "!=",
+                                                "0"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "VarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_PowerY",
+                                                "!=",
+                                                "0"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "MettreX"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "-",
+                                            "round(1024 * Object.Variable(__ShakeObject_DisplacementX) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "MettreY"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "-",
+                                            "round(1024 * Object.Variable(__ShakeObject_DisplacementY) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Save movement to calculate drift"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementTravelledX",
+                                                "-",
+                                                "round(1024 * Object.Variable(__ShakeObject_DisplacementX) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                              ]
+                                            },
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_DisplacementTravelledY",
+                                                "-",
+                                                "round(1024 * Object.Variable(__ShakeObject_DisplacementY) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Change angle"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "Egal"
+                                          },
+                                          "parameters": [
+                                            "Object.Variable(__ShakeObject_PowerAngle)",
+                                            "!=",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "SetAngle"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "-",
+                                            "round(1024 * Object.Variable(__ShakeObject_DisplacementAngle) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Save movement to calculate drift"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_AngleTravelled",
+                                                "-",
+                                                "round(1024 * Object.Variable(__ShakeObject_DisplacementAngle) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Comment",
+                                      "color": {
+                                        "b": 109,
+                                        "g": 230,
+                                        "r": 255,
+                                        "textB": 0,
+                                        "textG": 0,
+                                        "textR": 0
+                                      },
+                                      "comment": "Change scale"
+                                    },
+                                    {
+                                      "type": "BuiltinCommonInstructions::Standard",
+                                      "conditions": [
+                                        {
+                                          "type": {
+                                            "value": "Egal"
+                                          },
+                                          "parameters": [
+                                            "Object.Variable(__ShakeObject_PowerScale)",
+                                            "!=",
+                                            "0"
+                                          ]
+                                        }
+                                      ],
+                                      "actions": [
+                                        {
+                                          "type": {
+                                            "value": "ScalableCapability::ScalableBehavior::SetValue"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "Scale",
+                                            "-",
+                                            "round(1024 * Object.Variable(__ShakeObject_DisplacementScale) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                          ]
+                                        }
+                                      ],
+                                      "events": [
+                                        {
+                                          "type": "BuiltinCommonInstructions::Comment",
+                                          "color": {
+                                            "b": 109,
+                                            "g": 230,
+                                            "r": 255,
+                                            "textB": 0,
+                                            "textG": 0,
+                                            "textR": 0
+                                          },
+                                          "comment": "Save movement to calculate drift"
+                                        },
+                                        {
+                                          "type": "BuiltinCommonInstructions::Standard",
+                                          "conditions": [],
+                                          "actions": [
+                                            {
+                                              "type": {
+                                                "value": "ModVarObjet"
+                                              },
+                                              "parameters": [
+                                                "Object",
+                                                "__ShakeObject_ScaleTravelled",
+                                                "-",
+                                                "round(1024 * Object.Variable(__ShakeObject_DisplacementScale) * Object.Variable(__ShakeObject_PercentTimeElapsedThisFrame)) / 1024"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    },
+                    {
+                      "colorB": 228,
+                      "colorG": 176,
+                      "colorR": 74,
+                      "creationTime": 0,
+                      "name": "Stop shaking",
+                      "source": "",
+                      "type": "BuiltinCommonInstructions::Group",
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Comment",
+                          "color": {
+                            "b": 109,
+                            "g": 230,
+                            "r": 255,
+                            "textB": 0,
+                            "textG": 0,
+                            "textR": 0
+                          },
+                          "comment": "Stop shaking when the duration has been reached (or if the stop shaking function was called)"
+                        },
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Or"
+                              },
+                              "parameters": [],
+                              "subInstructions": [
+                                {
+                                  "type": {
+                                    "value": "ObjectTimer"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "\"__ShakeObject_DurationTimer\"",
+                                    "Object.Variable(__ShakeObject_Duration)"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "VarObjet"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "__ShakeObject_ShakeInProgress",
+                                    "=",
+                                    "-1"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Object",
+                                "__ShakeObject_ShakeInProgress",
+                                "=",
+                                "0"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "ModVarObjet"
+                              },
+                              "parameters": [
+                                "Object",
+                                "__ShakeObject_ShakeCounter",
+                                "=",
+                                "0"
+                              ]
+                            }
+                          ],
+                          "events": [
+                            {
+                              "colorB": 228,
+                              "colorG": 176,
+                              "colorR": 74,
+                              "creationTime": 0,
+                              "name": "Correct for drift and reset drift tracking variables",
+                              "source": "",
+                              "type": "BuiltinCommonInstructions::Group",
+                              "events": [
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Move to correct any drift from previous shake"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "BuiltinCommonInstructions::Or"
+                                      },
+                                      "parameters": [],
+                                      "subInstructions": [
+                                        {
+                                          "type": {
+                                            "value": "VarObjet"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "__ShakeObject_PowerX",
+                                            "!=",
+                                            "0"
+                                          ]
+                                        },
+                                        {
+                                          "type": {
+                                            "value": "VarObjet"
+                                          },
+                                          "parameters": [
+                                            "Object",
+                                            "__ShakeObject_PowerY",
+                                            "!=",
+                                            "0"
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "MettreX"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "-",
+                                        "Object.Variable(__ShakeObject_DisplacementTravelledX)"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "MettreY"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "-",
+                                        "Object.Variable(__ShakeObject_DisplacementTravelledY)"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "VarObjet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "__ShakeObject_PowerAngle",
+                                        "!=",
+                                        "0"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "SetAngle"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "-",
+                                        "Object.Variable(__ShakeObject_AngleTravelled)"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [
+                                    {
+                                      "type": {
+                                        "value": "VarObjet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "__ShakeObject_PowerScale",
+                                        "!=",
+                                        "0"
+                                      ]
+                                    }
+                                  ],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "Scale",
+                                        "-",
+                                        "Object.Variable(__ShakeObject_ScaleTravelled)"
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Comment",
+                                  "color": {
+                                    "b": 109,
+                                    "g": 230,
+                                    "r": 255,
+                                    "textB": 0,
+                                    "textG": 0,
+                                    "textR": 0
+                                  },
+                                  "comment": "Reset drift detection variables"
+                                },
+                                {
+                                  "type": "BuiltinCommonInstructions::Standard",
+                                  "conditions": [],
+                                  "actions": [
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "__ShakeObject_DisplacementTravelledX",
+                                        "=",
+                                        "0"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "__ShakeObject_DisplacementTravelledY",
+                                        "=",
+                                        "0"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "__ShakeObject_AngleTravelled",
+                                        "=",
+                                        "0"
+                                      ]
+                                    },
+                                    {
+                                      "type": {
+                                        "value": "ModVarObjet"
+                                      },
+                                      "parameters": [
+                                        "Object",
+                                        "__ShakeObject_ScaleTravelled",
+                                        "=",
+                                        "0"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ],
+                              "parameters": []
+                            }
+                          ]
+                        }
+                      ],
+                      "parameters": []
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "StarRatingBar::ShakeObject_PositionAngleScale",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Stop shaking an object.",
+              "fullName": "Stop shaking an object",
+              "functionType": "Action",
+              "name": "StopShaking",
+              "sentence": "Stop shaking _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "StarRatingBar::ShakeObject_PositionAngleScale::IsShaking"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__ShakeObject_ShakeInProgress",
+                        "=",
+                        "-1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "StarRatingBar::ShakeObject_PositionAngleScale",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if an object is shaking.",
+              "fullName": "Check if an object is shaking",
+              "functionType": "Condition",
+              "name": "IsShaking",
+              "sentence": "_PARAM0_ is shaking",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__ShakeObject_ShakeInProgress",
+                        "=",
+                        "1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "StarRatingBar::ShakeObject_PositionAngleScale",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Scalable capability",
+              "extraInformation": [
+                "ScalableCapability::ScalableBehavior"
+              ],
+              "choices": [],
+              "name": "Scale"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "name": "Property"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "propertyName": "Scale"
+              },
+              {
+                "propertyName": "Property"
+              }
+            ]
+          }
+        }
+      ],
+      "eventsBasedObjects": [
+        {
+          "areaMaxX": 278,
+          "areaMaxY": 60,
+          "areaMaxZ": 1,
+          "areaMinX": 0,
+          "areaMinY": 0,
+          "areaMinZ": 0,
+          "assetStoreTag": "star rating bars",
+          "defaultName": "StarRatingBar",
+          "description": "An animated score counter with an icon and a customisable font.",
+          "fullName": "Star Rating Bar",
+          "isInnerAreaFollowingParentSize": true,
+          "isUsingLegacyInstancesRenderer": false,
+          "name": "StarRatingBar",
+          "objects": [
+            {
+              "adaptCollisionMaskAutomatically": false,
+              "assetStoreId": "367a58ff120bef6532ea832ff97bb32fdbca604c7f08ab43a54fad9f667b9156",
+              "name": "Star",
+              "type": "Sprite",
+              "updateIfNotVisible": false,
+              "variables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 0
+                }
+              ],
+              "effects": [
+                {
+                  "effectType": "Outline",
+                  "name": "Effect",
+                  "doubleParameters": {
+                    "padding": 0,
+                    "thickness": 4
+                  },
+                  "stringParameters": {
+                    "color": "0;0;0"
+                  },
+                  "booleanParameters": {}
+                }
+              ],
+              "behaviors": [
+                {
+                  "isFolded": true,
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 4,
+                  "leftEdgeAnchor": 1,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 0,
+                  "topEdgeAnchor": 4,
+                  "useLegacyBottomAndRightAnchors": false
+                },
+                {
+                  "name": "ShakeObject_PositionAngleScale",
+                  "type": "StarRatingBar::ShakeObject_PositionAngleScale",
+                  "Scale": "Scale",
+                  "Property": 7.081819056384756e-306
+                }
+              ],
+              "animations": [
+                {
+                  "name": "Enabled",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": true,
+                      "timeBetweenFrames": 0.025,
+                      "sprites": []
+                    }
+                  ]
+                },
+                {
+                  "name": "Disabled",
+                  "useMultipleDirections": false,
+                  "directions": [
+                    {
+                      "looping": false,
+                      "metadata": "{\"pskl\":{}}",
+                      "timeBetweenFrames": 0.08,
+                      "sprites": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "assetStoreId": "",
+              "bottomMargin": 30,
+              "height": 64,
+              "leftMargin": 30,
+              "name": "Background",
+              "rightMargin": 30,
+              "texture": "",
+              "tiled": true,
+              "topMargin": 30,
+              "type": "PanelSpriteObject::PanelSprite",
+              "width": 64,
+              "variables": [],
+              "effects": [],
+              "behaviors": [
+                {
+                  "name": "Anchor",
+                  "type": "AnchorBehavior::AnchorBehavior",
+                  "bottomEdgeAnchor": 2,
+                  "leftEdgeAnchor": 1,
+                  "relativeToOriginalWindowSize": true,
+                  "rightEdgeAnchor": 2,
+                  "topEdgeAnchor": 1,
+                  "useLegacyBottomAndRightAnchors": false
+                }
+              ]
+            }
+          ],
+          "objectsFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "objectName": "Star"
+              },
+              {
+                "objectName": "Background"
+              }
+            ]
+          },
+          "objectsGroups": [],
+          "layers": [
+            {
+              "ambientLightColorB": 200,
+              "ambientLightColorG": 200,
+              "ambientLightColorR": 200,
+              "camera2DPlaneMaxDrawingDistance": 5000,
+              "camera3DFarPlaneDistance": 10000,
+              "camera3DFieldOfView": 45,
+              "camera3DNearPlaneDistance": 3,
+              "cameraType": "",
+              "followBaseLayerCamera": false,
+              "isLightingLayer": false,
+              "isLocked": false,
+              "name": "",
+              "renderingType": "",
+              "visibility": true,
+              "cameras": [
+                {
+                  "defaultSize": true,
+                  "defaultViewport": true,
+                  "height": 0,
+                  "viewportBottom": 1,
+                  "viewportLeft": 0,
+                  "viewportRight": 1,
+                  "viewportTop": 0,
+                  "width": 0
+                }
+              ],
+              "effects": []
+            }
+          ],
+          "instances": [
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "33104734-7e97-4243-a199-3470acd804d6",
+              "width": 53,
+              "x": 218,
+              "y": 4,
+              "zOrder": 6,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 5
+                }
+              ]
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 60,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Background",
+              "persistentUuid": "da4cddda-c06e-46b3-a344-5620b1696bd5",
+              "width": 278,
+              "x": 0,
+              "y": 0,
+              "zOrder": 0,
+              "numberProperties": [],
+              "stringProperties": [],
+              "initialVariables": []
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "eb2b23a4-9565-461a-871a-2bfa67cee2b3",
+              "width": 53,
+              "x": 6,
+              "y": 4,
+              "zOrder": 3,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 1
+                }
+              ]
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "18c41682-ab13-44d2-b4db-02cdcd6ce43b",
+              "width": 53,
+              "x": 165,
+              "y": 4,
+              "zOrder": 3,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 4
+                }
+              ]
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "f3d59f8f-4bc2-40b4-890b-04377b939ab5",
+              "width": 53,
+              "x": 112,
+              "y": 4,
+              "zOrder": 3,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 3
+                }
+              ]
+            },
+            {
+              "angle": 0,
+              "customSize": true,
+              "depth": 1,
+              "height": 53,
+              "keepRatio": true,
+              "layer": "",
+              "name": "Star",
+              "persistentUuid": "1b66ed48-034b-4760-9409-c3d7938bdbae",
+              "width": 53,
+              "x": 59,
+              "y": 4,
+              "zOrder": 3,
+              "numberProperties": [
+                {
+                  "name": "animation",
+                  "value": 0
+                }
+              ],
+              "stringProperties": [],
+              "initialVariables": [
+                {
+                  "name": "ID",
+                  "type": "number",
+                  "value": 2
+                }
+              ]
+            }
+          ],
+          "editionSettings": {
+            "grid": false,
+            "gridType": "rectangular",
+            "gridWidth": 32,
+            "gridHeight": 32,
+            "gridOffsetX": 0,
+            "gridOffsetY": 0,
+            "gridColor": 10401023,
+            "gridAlpha": 0.8,
+            "snap": false,
+            "zoomFactor": 2.5179856115107913,
+            "windowMask": false,
+            "selectedLayer": ""
+          },
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Star",
+                        "ID",
+                        ">",
+                        "Rate"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Star",
+                        "Animation",
+                        "=",
+                        "\"Disabled\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Star",
+                        "ID",
+                        "<=",
+                        "Rate"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Star",
+                        "Animation",
+                        "=",
+                        "\"Enabled\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "StarRatingBar::StarRatingBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "When the stars are hovered animated them and toggle the animation states of the clicked and the other stars"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "StarRatingBar::IsInGameEdition"
+                      },
+                      "parameters": [
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Disabled",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MouseButtonFromTextPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Left\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SourisSurObjet"
+                      },
+                      "parameters": [
+                        "Star",
+                        "",
+                        "",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StarRatingBar::StarRatingBar::SetRate"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Star.ID",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "StarRatingBar::StarRatingBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onHotReloading",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StarRatingBar::StarRatingBar::SetRate"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Rate",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Disabled",
+                        "=",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StarRatingBar::StarRatingBar::SetDisabled"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Rate"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Disabled",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "StarRatingBar::StarRatingBar::SetDisabled"
+                      },
+                      "parameters": [
+                        "Object",
+                        "yes",
+                        "Rate"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "StarRatingBar::StarRatingBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the rate of the object.",
+              "fullName": "Rate",
+              "functionType": "ExpressionAndCondition",
+              "name": "Rate",
+              "sentence": "the rate",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Rate"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "StarRatingBar::StarRatingBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Rate",
+              "name": "SetRate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Rate",
+                        "=",
+                        "clamp(Value, 0, SceneInstancesCount(Star))"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Star",
+                        "ID",
+                        ">",
+                        "Rate"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Star",
+                        "Animation",
+                        "=",
+                        "\"Disabled\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "Star",
+                        "ID",
+                        "<=",
+                        "Rate"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::SetName"
+                      },
+                      "parameters": [
+                        "Star",
+                        "Animation",
+                        "=",
+                        "\"Enabled\""
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BooleanVariable"
+                          },
+                          "parameters": [
+                            "ShakingOnHoverEnabled",
+                            "True",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "StarRatingBar::IsInGameEdition"
+                          },
+                          "parameters": [
+                            "",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "StarRatingBar::ShakeObject_PositionAngleScale::ShakeObject_PositionAngleScale"
+                          },
+                          "parameters": [
+                            "Star",
+                            "ShakeObject_PositionAngleScale",
+                            "0.5",
+                            "5",
+                            "0",
+                            "0",
+                            "25",
+                            "0.1",
+                            "",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "StarRatingBar::StarRatingBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if the object is disabled.",
+              "fullName": "Disable the rating",
+              "functionType": "Condition",
+              "name": "Disabled",
+              "sentence": "_PARAM0_ is disabled",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Disabled",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "StarRatingBar::StarRatingBar",
+                  "type": "object"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Enable or disable the object.",
+              "fullName": "Disable the rating",
+              "functionType": "Action",
+              "name": "SetDisabled",
+              "sentence": "_PARAM0_ is disabled: _PARAM1_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Change the tint of the object according the status enabled or disabled"
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Value",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Disabled",
+                        "False",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Star",
+                        "\"255;255;255\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanVariable"
+                      },
+                      "parameters": [
+                        "Value",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanVariable"
+                      },
+                      "parameters": [
+                        "Disabled",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Star",
+                        "\"109;109;109\""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "StarRatingBar::StarRatingBar",
+                  "type": "object"
+                },
+                {
+                  "defaultValue": "yes",
+                  "description": "Disable",
+                  "name": "Value",
+                  "optional": true,
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "3",
+              "type": "Number",
+              "unit": "Dimensionless",
+              "label": "Default rate",
+              "group": "Value",
+              "name": "Rate"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Shake the stars on value changes",
+              "name": "ShakingOnHoverEnabled"
+            },
+            {
+              "value": "",
+              "type": "Boolean",
+              "label": "Disable the rating",
+              "name": "Disabled"
+            }
+          ],
+          "propertiesFolderStructure": {
+            "folderName": "__ROOT",
+            "children": [
+              {
+                "folderName": "Value",
+                "children": [
+                  {
+                    "propertyName": "Rate"
+                  }
+                ]
+              },
+              {
+                "propertyName": "ShakingOnHoverEnabled"
+              },
+              {
+                "propertyName": "Disabled"
+              }
+            ]
+          },
+          "variants": [
+            {
+              "areaMaxX": 278,
+              "areaMaxY": 60,
+              "areaMaxZ": 1,
+              "areaMinX": 0,
+              "areaMinY": 0,
+              "areaMinZ": 0,
+              "assetStoreAssetId": "133fa76fc0fe4e2f4d7a6220abcb2a3ff8ea85ee11392c625b2d8710415f9f5d",
+              "assetStoreOriginalName": "White and yellow star",
+              "name": "White and yellow star",
+              "objects": [
+                {
+                  "adaptCollisionMaskAutomatically": false,
+                  "assetStoreId": "367a58ff120bef6532ea832ff97bb32fdbca604c7f08ab43a54fad9f667b9156",
+                  "name": "Star",
+                  "type": "Sprite",
+                  "updateIfNotVisible": false,
+                  "variables": [
+                    {
+                      "name": "ID",
+                      "type": "number",
+                      "value": 0
+                    }
+                  ],
+                  "effects": [
+                    {
+                      "effectType": "Outline",
+                      "name": "Effect",
+                      "doubleParameters": {
+                        "padding": 0,
+                        "thickness": 4
+                      },
+                      "stringParameters": {
+                        "color": "0;0;0"
+                      },
+                      "booleanParameters": {}
+                    }
+                  ],
+                  "behaviors": [
+                    {
+                      "isFolded": true,
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 4,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 0,
+                      "topEdgeAnchor": 4,
+                      "useLegacyBottomAndRightAnchors": false
+                    },
+                    {
+                      "name": "ShakeObject_PositionAngleScale",
+                      "type": "StarRatingBar::ShakeObject_PositionAngleScale",
+                      "Scale": "Scale",
+                      "Property": 0
+                    }
+                  ],
+                  "animations": [
+                    {
+                      "name": "Enabled",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": true,
+                          "timeBetweenFrames": 0.025,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Star Gold.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 23,
+                                "y": 23
+                              },
+                              "centerPoint": {
+                                "automatic": false,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Disabled",
+                      "useMultipleDirections": false,
+                      "directions": [
+                        {
+                          "looping": false,
+                          "metadata": "{\"pskl\":{}}",
+                          "timeBetweenFrames": 0.08,
+                          "sprites": [
+                            {
+                              "hasCustomCollisionMask": false,
+                              "image": "Star Gold Disabled.png",
+                              "points": [],
+                              "originPoint": {
+                                "name": "origine",
+                                "x": 23,
+                                "y": 23
+                              },
+                              "centerPoint": {
+                                "automatic": false,
+                                "name": "centre",
+                                "x": 0,
+                                "y": 0
+                              },
+                              "customCollisionMask": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "assetStoreId": "",
+                  "bottomMargin": 30,
+                  "height": 64,
+                  "leftMargin": 30,
+                  "name": "Background",
+                  "rightMargin": 30,
+                  "texture": "White Background.png",
+                  "tiled": true,
+                  "topMargin": 30,
+                  "type": "PanelSpriteObject::PanelSprite",
+                  "width": 64,
+                  "variables": [],
+                  "effects": [],
+                  "behaviors": [
+                    {
+                      "name": "Anchor",
+                      "type": "AnchorBehavior::AnchorBehavior",
+                      "bottomEdgeAnchor": 2,
+                      "leftEdgeAnchor": 1,
+                      "relativeToOriginalWindowSize": true,
+                      "rightEdgeAnchor": 2,
+                      "topEdgeAnchor": 1,
+                      "useLegacyBottomAndRightAnchors": false
+                    }
+                  ]
+                }
+              ],
+              "objectsFolderStructure": {
+                "folderName": "__ROOT",
+                "children": [
+                  {
+                    "objectName": "Star"
+                  },
+                  {
+                    "objectName": "Background"
+                  }
+                ]
+              },
+              "objectsGroups": [],
+              "layers": [
+                {
+                  "ambientLightColorB": 200,
+                  "ambientLightColorG": 200,
+                  "ambientLightColorR": 200,
+                  "camera2DPlaneMaxDrawingDistance": 5000,
+                  "camera3DFarPlaneDistance": 10000,
+                  "camera3DFieldOfView": 45,
+                  "camera3DNearPlaneDistance": 3,
+                  "cameraType": "",
+                  "followBaseLayerCamera": false,
+                  "isLightingLayer": false,
+                  "isLocked": false,
+                  "name": "",
+                  "renderingType": "",
+                  "visibility": true,
+                  "cameras": [
+                    {
+                      "defaultSize": true,
+                      "defaultViewport": true,
+                      "height": 0,
+                      "viewportBottom": 1,
+                      "viewportLeft": 0,
+                      "viewportRight": 1,
+                      "viewportTop": 0,
+                      "width": 0
+                    }
+                  ],
+                  "effects": []
+                }
+              ],
+              "instances": [
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 53,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Star",
+                  "persistentUuid": "33104734-7e97-4243-a199-3470acd804d6",
+                  "width": 53,
+                  "x": 246,
+                  "y": 27,
+                  "zOrder": 6,
+                  "numberProperties": [
+                    {
+                      "name": "animation",
+                      "value": 0
+                    }
+                  ],
+                  "stringProperties": [],
+                  "initialVariables": [
+                    {
+                      "name": "ID",
+                      "type": "number",
+                      "value": 5
+                    }
+                  ]
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 60,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Background",
+                  "persistentUuid": "da4cddda-c06e-46b3-a344-5620b1696bd5",
+                  "width": 278,
+                  "x": 0,
+                  "y": 0,
+                  "zOrder": 0,
+                  "numberProperties": [],
+                  "stringProperties": [],
+                  "initialVariables": []
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 53,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Star",
+                  "persistentUuid": "eb2b23a4-9565-461a-871a-2bfa67cee2b3",
+                  "width": 53,
+                  "x": 34,
+                  "y": 27,
+                  "zOrder": 3,
+                  "numberProperties": [
+                    {
+                      "name": "animation",
+                      "value": 0
+                    }
+                  ],
+                  "stringProperties": [],
+                  "initialVariables": [
+                    {
+                      "name": "ID",
+                      "type": "number",
+                      "value": 1
+                    }
+                  ]
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 53,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Star",
+                  "persistentUuid": "18c41682-ab13-44d2-b4db-02cdcd6ce43b",
+                  "width": 53,
+                  "x": 193,
+                  "y": 27,
+                  "zOrder": 3,
+                  "numberProperties": [
+                    {
+                      "name": "animation",
+                      "value": 0
+                    }
+                  ],
+                  "stringProperties": [],
+                  "initialVariables": [
+                    {
+                      "name": "ID",
+                      "type": "number",
+                      "value": 4
+                    }
+                  ]
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 53,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Star",
+                  "persistentUuid": "f3d59f8f-4bc2-40b4-890b-04377b939ab5",
+                  "width": 53,
+                  "x": 140,
+                  "y": 27,
+                  "zOrder": 3,
+                  "numberProperties": [
+                    {
+                      "name": "animation",
+                      "value": 0
+                    }
+                  ],
+                  "stringProperties": [],
+                  "initialVariables": [
+                    {
+                      "name": "ID",
+                      "type": "number",
+                      "value": 3
+                    }
+                  ]
+                },
+                {
+                  "angle": 0,
+                  "customSize": true,
+                  "depth": 1,
+                  "height": 53,
+                  "keepRatio": true,
+                  "layer": "",
+                  "name": "Star",
+                  "persistentUuid": "1b66ed48-034b-4760-9409-c3d7938bdbae",
+                  "width": 53,
+                  "x": 87,
+                  "y": 27,
+                  "zOrder": 3,
+                  "numberProperties": [
+                    {
+                      "name": "animation",
+                      "value": 0
+                    }
+                  ],
+                  "stringProperties": [],
+                  "initialVariables": [
+                    {
+                      "name": "ID",
+                      "type": "number",
+                      "value": 2
+                    }
+                  ]
                 }
               ],
               "editionSettings": []

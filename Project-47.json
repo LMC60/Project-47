@@ -2325,7 +2325,7 @@
         "zoomFactor": 0.3425615343430767,
         "windowMask": false,
         "selectedLayer": "",
-        "gameEditorMode": "instances-editor"
+        "gameEditorMode": "embedded-game"
       },
       "objectsGroups": [
         {
@@ -5679,6 +5679,15 @@
               "parameters": [
                 "Fin"
               ]
+            },
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"Menu\""
+              ]
             }
           ]
         },
@@ -7094,6 +7103,17 @@
               "parameters": [
                 "Fin"
               ]
+            },
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                ">=",
+                "2"
+              ]
             }
           ],
           "actions": [
@@ -7125,6 +7145,33 @@
               "parameters": [
                 "",
                 "\"Chrono\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"Menu\"",
+                "<=",
+                "2"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MousePointerLock::RequestPointerLock"
+              },
+              "parameters": [
+                "",
+                ""
               ]
             }
           ]

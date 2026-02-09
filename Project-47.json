@@ -1769,6 +1769,34 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Terrain/3822dec39b16fd3c1767f113a4e99024533cec47dc38fe0664902ca2a6950ce9_9patch_Wood 9Patch_all_16.png",
           "name": "9patch_Wood 9Patch_all_16.png"
         }
+      },
+      {
+        "file": "Début Lotissement.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Début Lotissement.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ROUTESglb.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ROUTESglb.glb",
+        "userAdded": false
+      },
+      {
+        "file": "ROUTESglb2.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "ROUTESglb2.glb",
+        "userAdded": false
+      },
+      {
+        "file": "Maison.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "Maison.glb",
+        "userAdded": false
       }
     ]
   },
@@ -1889,7 +1917,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.41630252177333305,
+        "zoomFactor": 0.2074649961630136,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -2280,7 +2308,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.8670102015797507,
+        "zoomFactor": 0.36605362360933735,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -8352,7 +8380,7 @@
               },
               "parameters": [
                 "",
-                "\"Paris\"",
+                "\"Quartier Américain\"",
                 ""
               ]
             }
@@ -8907,8 +8935,8 @@
     {
       "b": 255,
       "disableInputWhenNotFocused": true,
-      "mangledName": "Paris",
-      "name": "Paris",
+      "mangledName": "Quartier_32Am_233ricain",
+      "name": "Quartier Américain",
       "r": 247,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -8926,10 +8954,10 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3541128223539178,
+        "zoomFactor": 0.04841257664904829,
         "windowMask": false,
         "selectedLayer": "",
-        "gameEditorMode": "instances-editor"
+        "gameEditorMode": "embedded-game"
       },
       "objectsGroups": [
         {
@@ -9027,12 +9055,12 @@
           "angle": 0,
           "customSize": true,
           "depth": 15,
-          "height": 1835,
+          "height": 5763,
           "layer": "",
           "name": "platforme",
           "persistentUuid": "a2df3918-3b0f-49b7-98c0-e7a2ca30a3e6",
-          "width": 2105,
-          "x": 3724,
+          "width": 7402,
+          "x": 6649,
           "y": 1188,
           "z": -411,
           "zOrder": 0,
@@ -9268,6 +9296,57 @@
           "x": 1247,
           "y": -50,
           "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 352,
+          "height": 221,
+          "layer": "",
+          "name": "Maison",
+          "persistentUuid": "1b17c62f-d96c-420a-8655-4ed42ed43e89",
+          "width": 397,
+          "x": 6223,
+          "y": -1101,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 352,
+          "height": 221,
+          "layer": "",
+          "name": "Maison",
+          "persistentUuid": "7a78fc3c-3971-49a6-9971-4554fcd6dd2b",
+          "width": 397,
+          "x": 6806,
+          "y": -1101,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 352,
+          "height": 221,
+          "layer": "",
+          "name": "Maison",
+          "persistentUuid": "88dba61b-003d-43ad-be08-25956d22f2fc",
+          "width": 397,
+          "x": 7418,
+          "y": -1101,
+          "z": -396,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10963,11 +11042,72 @@
           "effects": [],
           "behaviors": [],
           "content": {}
+        },
+        {
+          "assetStoreId": "",
+          "name": "Quartier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Début Lotissement.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Maison",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Maison.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Map Quartier américain",
+            "children": [
+              {
+                "objectName": "Quartier"
+              },
+              {
+                "objectName": "Maison"
+              }
+            ]
+          },
           {
             "folderName": "modèle importé",
             "children": [

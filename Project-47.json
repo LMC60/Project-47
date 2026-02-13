@@ -1797,6 +1797,13 @@
         "metadata": "",
         "name": "Maison.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/FICHIER A SUPPRIMER DES QUE TU RECOIS LA MAISON EN GLB (ESSAIE DE TJR ENVOYER LE MTL AVEC LE OBJ STP MRC)/Maison finale.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\FICHIER A SUPPRIMER DES QUE TU RECOIS LA MAISON EN GLB (ESSAIE DE TJR ENVOYER LE MTL AVEC LE OBJ STP MRC)\\Maison finale.glb",
+        "userAdded": false
       }
     ]
   },
@@ -9350,6 +9357,24 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 283,
+          "height": 452,
+          "layer": "",
+          "name": "Maison_SANS_LE_MTL",
+          "persistentUuid": "f92622c9-e69b-4996-93ff-2a7f9193c6ef",
+          "rotationY": 270,
+          "width": 297,
+          "x": 5655,
+          "y": -1146,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -11092,6 +11117,31 @@
             "width": 100,
             "animations": []
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Maison_SANS_LE_MTL",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": false,
+            "keepAspectRatio": true,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "assets\\Dossier Maxence\\FICHIER A SUPPRIMER DES QUE TU RECOIS LA MAISON EN GLB (ESSAIE DE TJR ENVOYER LE MTL AVEC LE OBJ STP MRC)\\Maison finale.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11105,6 +11155,9 @@
               },
               {
                 "objectName": "Maison"
+              },
+              {
+                "objectName": "Maison_SANS_LE_MTL"
               }
             ]
           },

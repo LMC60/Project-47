@@ -1804,6 +1804,13 @@
         "metadata": "",
         "name": "assets\\Dossier Maxence\\FICHIER A SUPPRIMER DES QUE TU RECOIS LA MAISON EN GLB (ESSAIE DE TJR ENVOYER LE MTL AVEC LE OBJ STP MRC)\\Maison finale.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/Maison finale.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Maison finale.glb",
+        "userAdded": false
       }
     ]
   },
@@ -9325,46 +9332,12 @@
           "initialVariables": []
         },
         {
-          "angle": 180,
-          "customSize": true,
-          "depth": 352,
-          "height": 221,
-          "layer": "",
-          "name": "Maison",
-          "persistentUuid": "7a78fc3c-3971-49a6-9971-4554fcd6dd2b",
-          "width": 397,
-          "x": 6806,
-          "y": -1101,
-          "z": -396,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 352,
-          "height": 221,
-          "layer": "",
-          "name": "Maison",
-          "persistentUuid": "88dba61b-003d-43ad-be08-25956d22f2fc",
-          "width": 397,
-          "x": 7418,
-          "y": -1101,
-          "z": -396,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90,
           "customSize": true,
           "depth": 283,
           "height": 452,
           "layer": "",
-          "name": "Maison_SANS_LE_MTL",
+          "name": "Maison_Fusion",
           "persistentUuid": "f92622c9-e69b-4996-93ff-2a7f9193c6ef",
           "rotationY": 270,
           "width": 297,
@@ -11120,7 +11093,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Maison_SANS_LE_MTL",
+          "name": "Maison_Fusion",
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
@@ -11134,7 +11107,7 @@
             "isReceivingShadow": false,
             "keepAspectRatio": true,
             "materialType": "KeepOriginal",
-            "modelResourceName": "assets\\Dossier Maxence\\FICHIER A SUPPRIMER DES QUE TU RECOIS LA MAISON EN GLB (ESSAIE DE TJR ENVOYER LE MTL AVEC LE OBJ STP MRC)\\Maison finale.glb",
+            "modelResourceName": "assets\\Dossier Maxence\\Maison finale.glb",
             "originLocation": "ModelOrigin",
             "rotationX": 90,
             "rotationY": 0,
@@ -11157,7 +11130,7 @@
                 "objectName": "Maison"
               },
               {
-                "objectName": "Maison_SANS_LE_MTL"
+                "objectName": "Maison_Fusion"
               }
             ]
           },

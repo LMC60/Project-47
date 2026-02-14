@@ -1,7 +1,7 @@
 {
   "firstLayout": "Intro",
   "gdVersion": {
-    "build": 257,
+    "build": 254,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -5521,6 +5521,15 @@
               "parameters": [
                 "Fin"
               ]
+            },
+            {
+              "type": {
+                "value": "PrioritizeLoadingOfScene"
+              },
+              "parameters": [
+                "",
+                "\"Quartier Américain\""
+              ]
             }
           ]
         },
@@ -8989,7 +8998,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.04841257664904829,
+        "zoomFactor": 0.3425615343430775,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "embedded-game"
@@ -9030,6 +9039,21 @@
             },
             {
               "name": "talkie"
+            },
+            {
+              "name": "Porte_immeuble"
+            },
+            {
+              "name": "Ventilateurs"
+            },
+            {
+              "name": "Immeuble"
+            },
+            {
+              "name": "Maison_v2"
+            },
+            {
+              "name": "Maison"
             }
           ]
         },
@@ -9128,8 +9152,8 @@
           "name": "MenuBackground",
           "persistentUuid": "1b5d5178-bd95-4597-b878-ca1a5560e4ba",
           "width": 1920,
-          "x": -16339,
-          "y": -1659,
+          "x": -5086,
+          "y": -364,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -9178,8 +9202,8 @@
           "name": "Titre",
           "persistentUuid": "c6f4afdb-345a-4a31-84ac-295f26e54dd9",
           "width": 0,
-          "x": -15655,
-          "y": -1422,
+          "x": -4402,
+          "y": -127,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -9195,8 +9219,8 @@
           "name": "Quitter",
           "persistentUuid": "86d30ca9-dff8-4f83-bd77-351fb2b9575d",
           "width": 199,
-          "x": -15940,
-          "y": -1077,
+          "x": -4687,
+          "y": 218,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -9212,8 +9236,8 @@
           "name": "Reprendre",
           "persistentUuid": "b6c06f6f-36bb-4d63-87d9-b861e0d503b5",
           "width": 203,
-          "x": -15080,
-          "y": -1093,
+          "x": -3827,
+          "y": 202,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
@@ -9387,36 +9411,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 32,
-          "layer": "",
-          "name": "",
-          "persistentUuid": "7244d0aa-85bf-423d-bd53-08cbf4ce2903",
-          "width": 32,
-          "x": 0,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 32,
-          "layer": "",
-          "name": "",
-          "persistentUuid": "a71add8b-f014-4c81-ac94-eb00008abfac",
-          "width": 32,
-          "x": 0,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 90,
           "customSize": true,
           "depth": 287,
@@ -9437,15 +9431,15 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1343,
-          "height": 501,
+          "depth": 903,
+          "height": 337,
           "layer": "",
           "name": "Immeuble",
           "persistentUuid": "16c5bb35-6348-4a98-a215-93d1fd70454f",
-          "width": 513,
+          "width": 345,
           "x": 4427,
           "y": 2763,
-          "z": -396,
+          "z": -439,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -9453,47 +9447,16 @@
         },
         {
           "angle": 271,
-          "customSize": false,
-          "height": 99.99999999999999,
+          "customSize": true,
+          "depth": 18,
+          "height": 26,
           "layer": "",
           "name": "Ventilateurs",
           "persistentUuid": "9883d9ea-a5bf-4057-a9ae-f2ae4a7941d4",
-          "width": 46.15249166402954,
-          "x": 4594,
-          "y": 2971,
-          "z": 968,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 271,
-          "customSize": false,
-          "height": 99.99999999999999,
-          "layer": "",
-          "name": "Ventilateurs",
-          "persistentUuid": "0b062a18-7aa9-460d-944d-7e6f82afe4c5",
-          "width": 46.15249166402954,
-          "x": 4481,
-          "y": 2971,
-          "z": 968,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 99.99999999999999,
-          "layer": "",
-          "name": "Ventilateurs",
-          "persistentUuid": "4058ba6e-ddfd-4b8d-88aa-4bcdeaff9b86",
-          "width": 46.15249166402954,
-          "x": 4193,
-          "y": 2592,
-          "z": 968,
+          "width": 12,
+          "x": 4542,
+          "y": 2913,
+          "z": 463,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -9502,15 +9465,115 @@
         {
           "angle": 89,
           "customSize": true,
-          "depth": 207,
-          "height": 131,
+          "depth": 85,
+          "height": 64,
           "layer": "",
           "name": "Porte_immeuble",
           "persistentUuid": "5762802b-afad-48d0-9092-1c52ce1fee9e",
-          "width": 144,
-          "x": 4287,
-          "y": 2848,
-          "z": 1018,
+          "width": 71,
+          "x": 4316,
+          "y": 2827,
+          "z": 490,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 271,
+          "customSize": true,
+          "depth": 18,
+          "height": 26,
+          "layer": "",
+          "name": "Ventilateurs",
+          "persistentUuid": "cefd327b-4663-4a00-9fc9-7729a6bb7d4e",
+          "width": 12,
+          "x": 4485,
+          "y": 2913,
+          "z": 463,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 1,
+          "customSize": true,
+          "depth": 18,
+          "height": 26,
+          "layer": "",
+          "name": "Ventilateurs",
+          "persistentUuid": "f7b75f3d-fabd-4313-ba6b-568fc9adb131",
+          "width": 12,
+          "x": 4266,
+          "y": 2666,
+          "z": 463,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 63,
+          "height": 60,
+          "layer": "",
+          "name": "Camera",
+          "persistentUuid": "3dab0116-d2db-4762-b653-3d7402d13954",
+          "width": 13,
+          "x": 4406,
+          "y": 2699,
+          "z": 454,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "TexteTalkie2",
+          "persistentUuid": "389fd8dd-77d9-4e94-9315-47e4b2032456",
+          "width": 0,
+          "x": 490,
+          "y": 534,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 19,
+          "height": 51,
+          "layer": "",
+          "name": "Sniper",
+          "persistentUuid": "67b9ec30-3ef0-4150-8445-f242fbe2b5fc",
+          "width": 5,
+          "x": 4531,
+          "y": 2790,
+          "z": 454,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 10,
+          "layer": "",
+          "name": "E_Sniper",
+          "persistentUuid": "55af7627-81f6-418c-bcf3-9950eed2e4ff",
+          "width": 10,
+          "x": 4513,
+          "y": 2778,
+          "z": 453.58347008408396,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -11264,14 +11327,44 @@
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
           "content": {
             "centerLocation": "ModelOrigin",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 100,
             "height": 100,
             "isCastingShadow": true,
-            "isReceivingShadow": true,
+            "isReceivingShadow": false,
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
             "modelResourceName": "assets\\Dossier Maxence\\Immeuble.glb",
@@ -11289,14 +11382,44 @@
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
           "content": {
             "centerLocation": "ModelOrigin",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 100,
             "height": 100,
             "isCastingShadow": true,
-            "isReceivingShadow": true,
+            "isReceivingShadow": false,
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
             "modelResourceName": "assets\\Dossier Maxence\\Ventilation.glb",
@@ -11314,14 +11437,44 @@
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
           "content": {
             "centerLocation": "ModelOrigin",
             "crossfadeDuration": 0.10000000149011612,
             "depth": 100,
             "height": 100,
             "isCastingShadow": true,
-            "isReceivingShadow": true,
+            "isReceivingShadow": false,
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
             "modelResourceName": "assets\\Dossier Maxence\\PORTE haut immeuble.glb",
@@ -11538,6 +11691,14 @@
                 "Camera",
                 "Flippable",
                 "yes"
+              ]
+            },
+            {
+              "type": {
+                "value": "Hide"
+              },
+              "parameters": [
+                "TexteTalkie2"
               ]
             }
           ]
@@ -12076,7 +12237,7 @@
                   "parameters": [
                     "",
                     "BulletObstacle",
-                    "2000",
+                    "5000",
                     ""
                   ]
                 }
@@ -12117,7 +12278,7 @@
                   "parameters": [
                     "",
                     "Enemy",
-                    "2000",
+                    "5000",
                     ""
                   ]
                 }
@@ -12146,7 +12307,7 @@
                   "parameters": [
                     "",
                     "Innocent",
-                    "2000",
+                    "5000",
                     ""
                   ]
                 },

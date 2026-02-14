@@ -1797,6 +1797,20 @@
         "metadata": "",
         "name": "Maison.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/Maison finale.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Maison finale.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/Maison_v1.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Maison_v1.glb",
+        "userAdded": false
       }
     ]
   },
@@ -9350,6 +9364,54 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 32,
+          "layer": "",
+          "name": "",
+          "persistentUuid": "7244d0aa-85bf-423d-bd53-08cbf4ce2903",
+          "width": 32,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 32,
+          "layer": "",
+          "name": "",
+          "persistentUuid": "a71add8b-f014-4c81-ac94-eb00008abfac",
+          "width": 32,
+          "x": 0,
+          "y": 0,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 90,
+          "customSize": true,
+          "depth": 287,
+          "height": 458,
+          "layer": "",
+          "name": "Maison_v2",
+          "persistentUuid": "2d2830d5-a0c8-4a83-95b2-c2e21c56faaf",
+          "rotationY": 271,
+          "width": 301,
+          "x": 5594,
+          "y": -1136,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -11084,7 +11146,32 @@
             "isReceivingShadow": true,
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Maison.glb",
+            "modelResourceName": "assets\\Dossier Maxence\\Maison_v1.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Maison_v2",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\Maison finale.glb",
             "originLocation": "ModelOrigin",
             "rotationX": 90,
             "rotationY": 0,
@@ -11105,6 +11192,9 @@
               },
               {
                 "objectName": "Maison"
+              },
+              {
+                "objectName": "Maison_v2"
               }
             ]
           },

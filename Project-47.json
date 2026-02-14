@@ -1,7 +1,7 @@
 {
   "firstLayout": "Intro",
   "gdVersion": {
-    "build": 254,
+    "build": 257,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1810,6 +1810,27 @@
         "kind": "model3D",
         "metadata": "",
         "name": "assets\\Dossier Maxence\\Maison_v1.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/Immeuble.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Immeuble.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/Ventilation.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Ventilation.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/PORTE haut immeuble.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\PORTE haut immeuble.glb",
         "userAdded": false
       }
     ]
@@ -9412,6 +9433,88 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1343,
+          "height": 501,
+          "layer": "",
+          "name": "Immeuble",
+          "persistentUuid": "16c5bb35-6348-4a98-a215-93d1fd70454f",
+          "width": 513,
+          "x": 4427,
+          "y": 2763,
+          "z": -396,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 271,
+          "customSize": false,
+          "height": 99.99999999999999,
+          "layer": "",
+          "name": "Ventilateurs",
+          "persistentUuid": "9883d9ea-a5bf-4057-a9ae-f2ae4a7941d4",
+          "width": 46.15249166402954,
+          "x": 4594,
+          "y": 2971,
+          "z": 968,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 271,
+          "customSize": false,
+          "height": 99.99999999999999,
+          "layer": "",
+          "name": "Ventilateurs",
+          "persistentUuid": "0b062a18-7aa9-460d-944d-7e6f82afe4c5",
+          "width": 46.15249166402954,
+          "x": 4481,
+          "y": 2971,
+          "z": 968,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 99.99999999999999,
+          "layer": "",
+          "name": "Ventilateurs",
+          "persistentUuid": "4058ba6e-ddfd-4b8d-88aa-4bcdeaff9b86",
+          "width": 46.15249166402954,
+          "x": 4193,
+          "y": 2592,
+          "z": 968,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 89,
+          "customSize": true,
+          "depth": 207,
+          "height": 131,
+          "layer": "",
+          "name": "Porte_immeuble",
+          "persistentUuid": "5762802b-afad-48d0-9092-1c52ce1fee9e",
+          "width": 144,
+          "x": 4287,
+          "y": 2848,
+          "z": 1018,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -11107,31 +11210,6 @@
         },
         {
           "assetStoreId": "",
-          "name": "Quartier",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0.10000000149011612,
-            "depth": 100,
-            "height": 100,
-            "isCastingShadow": true,
-            "isReceivingShadow": true,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Début Lotissement.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 90,
-            "rotationY": 0,
-            "rotationZ": 90,
-            "width": 100,
-            "animations": []
-          }
-        },
-        {
-          "assetStoreId": "",
           "name": "Maison",
           "type": "Scene3D::Model3DObject",
           "variables": [],
@@ -11179,6 +11257,81 @@
             "width": 100,
             "animations": []
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Immeuble",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\Immeuble.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Ventilateurs",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\Ventilation.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Porte_immeuble",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\PORTE haut immeuble.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11188,13 +11341,19 @@
             "folderName": "Map Quartier américain",
             "children": [
               {
-                "objectName": "Quartier"
-              },
-              {
                 "objectName": "Maison"
               },
               {
                 "objectName": "Maison_v2"
+              },
+              {
+                "objectName": "Immeuble"
+              },
+              {
+                "objectName": "Ventilateurs"
+              },
+              {
+                "objectName": "Porte_immeuble"
               }
             ]
           },

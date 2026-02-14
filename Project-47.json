@@ -1797,27 +1797,6 @@
         "metadata": "",
         "name": "Maison.glb",
         "userAdded": false
-      },
-      {
-        "file": "Immeuble.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Immeuble.glb",
-        "userAdded": false
-      },
-      {
-        "file": "Ventilation.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "Ventilation.glb",
-        "userAdded": false
-      },
-      {
-        "file": "PORTE haut immeuble.glb",
-        "kind": "model3D",
-        "metadata": "",
-        "name": "PORTE haut immeuble.glb",
-        "userAdded": false
       }
     ]
   },
@@ -9371,104 +9350,6 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 37.284411342722635,
-          "layer": "",
-          "name": "Plateforme_joueur",
-          "persistentUuid": "c291f1e9-51a1-4ebb-bb23-29f5ef81f867",
-          "width": 38.232773813828715,
-          "x": 5231,
-          "y": 2783,
-          "z": -540,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1245,
-          "height": 781,
-          "layer": "",
-          "name": "Plateforme_joueur",
-          "persistentUuid": "7f818f55-c6df-4f36-a75f-c8ee9faff3f9",
-          "width": 740,
-          "x": 4887,
-          "y": 3282,
-          "z": -396,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 99.99999999999999,
-          "layer": "",
-          "name": "Ventilations",
-          "persistentUuid": "743630ed-c473-4bef-801a-ee86676c3be3",
-          "width": 46.15249166402954,
-          "x": 4594,
-          "y": 3569,
-          "z": 868,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 269,
-          "customSize": false,
-          "height": 99.99999999999999,
-          "layer": "",
-          "name": "Ventilations",
-          "persistentUuid": "21df12cf-5a28-48d1-b7cd-0bd6674af49f",
-          "width": 46.15249166402954,
-          "x": 5175,
-          "y": 3627,
-          "z": 868,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 269,
-          "customSize": false,
-          "height": 99.99999999999999,
-          "layer": "",
-          "name": "Ventilations",
-          "persistentUuid": "9a7d4139-da61-4a95-a093-4a789fd8b0d8",
-          "width": 46.15249166402954,
-          "x": 5061,
-          "y": 3627,
-          "z": 868,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 178,
-          "customSize": true,
-          "depth": 236,
-          "height": 149,
-          "layer": "",
-          "name": "Porte",
-          "persistentUuid": "945389df-491c-456d-9663-ccba7edd6be7",
-          "width": 164,
-          "x": 4734,
-          "y": 3247,
-          "z": 933,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
@@ -11164,6 +11045,31 @@
         },
         {
           "assetStoreId": "",
+          "name": "Quartier",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "Début Lotissement.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
           "name": "Maison",
           "type": "Scene3D::Model3DObject",
           "variables": [],
@@ -11186,81 +11092,6 @@
             "width": 100,
             "animations": []
           }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Plateforme_joueur",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0.10000000149011612,
-            "depth": 100,
-            "height": 100,
-            "isCastingShadow": true,
-            "isReceivingShadow": true,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Immeuble.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 90,
-            "rotationY": 0,
-            "rotationZ": 90,
-            "width": 100,
-            "animations": []
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Ventilations",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0.10000000149011612,
-            "depth": 100,
-            "height": 100,
-            "isCastingShadow": true,
-            "isReceivingShadow": true,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "Ventilation.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 90,
-            "rotationY": 0,
-            "rotationZ": 90,
-            "width": 100,
-            "animations": []
-          }
-        },
-        {
-          "assetStoreId": "",
-          "name": "Porte",
-          "type": "Scene3D::Model3DObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "centerLocation": "ModelOrigin",
-            "crossfadeDuration": 0.10000000149011612,
-            "depth": 100,
-            "height": 100,
-            "isCastingShadow": true,
-            "isReceivingShadow": true,
-            "keepAspectRatio": true,
-            "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "PORTE haut immeuble.glb",
-            "originLocation": "ModelOrigin",
-            "rotationX": 90,
-            "rotationY": 0,
-            "rotationZ": 90,
-            "width": 100,
-            "animations": []
-          }
         }
       ],
       "objectsFolderStructure": {
@@ -11270,16 +11101,10 @@
             "folderName": "Map Quartier américain",
             "children": [
               {
+                "objectName": "Quartier"
+              },
+              {
                 "objectName": "Maison"
-              },
-              {
-                "objectName": "Plateforme_joueur"
-              },
-              {
-                "objectName": "Ventilations"
-              },
-              {
-                "objectName": "Porte"
               }
             ]
           },

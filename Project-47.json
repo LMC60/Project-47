@@ -1,7 +1,7 @@
 {
   "firstLayout": "Intro",
   "gdVersion": {
-    "build": 254,
+    "build": 257,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -9153,9 +9153,6 @@
             },
             {
               "name": "Ventilateurs"
-            },
-            {
-              "name": "Caisse_Maxence"
             }
           ]
         },
@@ -9856,17 +9853,16 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": true,
-          "depth": 31,
-          "height": 38,
+          "angle": 271,
+          "customSize": false,
+          "height": 80.72094774642173,
           "layer": "",
-          "name": "Caisse_Maxence",
-          "persistentUuid": "ef762342-daeb-4763-84b4-16986673de8a",
-          "width": 61,
-          "x": 7117,
-          "y": 2549,
-          "z": 507,
+          "name": "Caisse_V2",
+          "persistentUuid": "434107b8-b020-45de-a709-d551075ad9cf",
+          "width": 89.88983180141213,
+          "x": 7134,
+          "y": 2612,
+          "z": 434,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -11891,7 +11887,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "Caisse_Maxence",
+          "name": "Caisse_V2",
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
@@ -11967,7 +11963,7 @@
                 "objectName": "Porte_immeuble"
               },
               {
-                "objectName": "Caisse_Maxence"
+                "objectName": "Caisse_V2"
               }
             ]
           },

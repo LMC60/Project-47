@@ -1847,6 +1847,32 @@
         "metadata": "",
         "name": "assets\\Dossier Maxence\\Caisse.glb",
         "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/Parc.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Parc.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/tiled_Grass1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Grass1.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/85be5683bde687f5ee621cb6af57e360aeb18d6f74b2a14db8eeb4cffe93251e_tiled_Grass1.png",
+          "name": "tiled_Grass1.png"
+        }
+      },
+      {
+        "file": "assets/Dossier Maxence/Parc texture.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Parc texture.glb",
+        "userAdded": false
       }
     ]
   },
@@ -9160,6 +9186,9 @@
             },
             {
               "name": "Caisse_V2"
+            },
+            {
+              "name": "Parc"
             }
           ]
         },
@@ -9723,75 +9752,6 @@
           "initialVariables": []
         },
         {
-          "angle": 90,
-          "customSize": true,
-          "depth": 185,
-          "height": 296,
-          "layer": "",
-          "name": "Maison_v2",
-          "persistentUuid": "5212ebe1-ed65-43a0-9e7e-283bde7ca6e4",
-          "rotationY": 271,
-          "width": 194,
-          "x": 8128,
-          "y": -1136,
-          "z": -321,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 227,
-          "height": 143,
-          "layer": "",
-          "name": "Maison",
-          "persistentUuid": "3b30c67a-3307-4528-bb7d-76d82067e9f7",
-          "width": 256,
-          "x": 8757,
-          "y": -1101,
-          "z": -321,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 227,
-          "height": 143,
-          "layer": "",
-          "name": "Maison",
-          "persistentUuid": "c8c273d9-610b-41f9-909a-b3032522185c",
-          "width": 256,
-          "x": 9340,
-          "y": -1101,
-          "z": -321,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 180,
-          "customSize": true,
-          "depth": 227,
-          "height": 143,
-          "layer": "",
-          "name": "Maison",
-          "persistentUuid": "6e8e0751-73b8-44af-b9db-34db4975f514",
-          "width": 256,
-          "x": 9952,
-          "y": -1101,
-          "z": -321,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 0,
           "customSize": true,
           "depth": 125,
@@ -9870,6 +9830,23 @@
           "x": 7134,
           "y": 2612,
           "z": 434,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 180,
+          "customSize": true,
+          "depth": 254,
+          "height": 2362,
+          "layer": "",
+          "name": "Parc",
+          "persistentUuid": "8cb84cb8-2626-4661-adbe-d7a4b5975cc1",
+          "width": 2364,
+          "x": 9467,
+          "y": 1205,
+          "z": -228,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -10049,7 +10026,7 @@
               "sidewaysDeceleration": 1000,
               "sidewaysSpeedMax": 100,
               "slopeMaxAngle": 50,
-              "stairHeightMax": 30,
+              "stairHeightMax": 0,
               "shouldBindObjectAndForwardAngle": true,
               "canBePushed": true
             }
@@ -11957,6 +11934,31 @@
               }
             ]
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Parc",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ObjectCenter",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": false,
+            "keepAspectRatio": true,
+            "materialType": "KeepOriginal",
+            "modelResourceName": "assets\\Dossier Maxence\\Parc texture.glb",
+            "originLocation": "ObjectCenter",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -11982,6 +11984,9 @@
               },
               {
                 "objectName": "Caisse_V2"
+              },
+              {
+                "objectName": "Parc"
               }
             ]
           },

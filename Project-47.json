@@ -1,7 +1,7 @@
 {
   "firstLayout": "Intro",
   "gdVersion": {
-    "build": 257,
+    "build": 254,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1893,6 +1893,20 @@
         "kind": "model3D",
         "metadata": "",
         "name": "assets\\Dossier Maxence\\Untitled.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/low-poly_city_buildings.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\low-poly_city_buildings.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/grass_usd.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\grass_usd.glb",
         "userAdded": false
       }
     ]
@@ -9210,6 +9224,18 @@
             },
             {
               "name": "Parc"
+            },
+            {
+              "name": "Parking_Parc_Routes"
+            },
+            {
+              "name": "Immeubles"
+            },
+            {
+              "name": "Buildings_Importés"
+            },
+            {
+              "name": "New3DModel"
             }
           ]
         },
@@ -9286,23 +9312,6 @@
       ],
       "variables": [],
       "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 55,
-          "height": 9550,
-          "layer": "",
-          "name": "platforme",
-          "persistentUuid": "a2df3918-3b0f-49b7-98c0-e7a2ca30a3e6",
-          "width": 10671,
-          "x": 9461,
-          "y": 1188,
-          "z": -411,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
         {
           "angle": 0,
           "customSize": false,
@@ -9874,51 +9883,6 @@
           "initialVariables": []
         },
         {
-          "angle": 0,
-          "customSize": false,
-          "height": 32,
-          "layer": "",
-          "name": "",
-          "persistentUuid": "88f4ac93-09d4-43c0-aabf-8c734d089eaa",
-          "width": 32,
-          "x": 0,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 32,
-          "layer": "",
-          "name": "",
-          "persistentUuid": "d32f2f0a-f55b-40d1-a7dc-065a78b1b0d2",
-          "width": 32,
-          "x": 0,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 32,
-          "layer": "",
-          "name": "",
-          "persistentUuid": "b3fa7569-d6af-46f4-94f3-0487dcdb9acb",
-          "width": 32,
-          "x": 0,
-          "y": 0,
-          "zOrder": 0,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
           "angle": 270,
           "customSize": true,
           "depth": 732,
@@ -9947,6 +9911,74 @@
           "x": 9631,
           "y": 1196,
           "z": -360,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 269,
+          "customSize": true,
+          "depth": 4467,
+          "height": 9116,
+          "layer": "",
+          "name": "Buildings_Importés",
+          "persistentUuid": "3c8e44dc-ea97-4fd7-9321-d476e0d86e6a",
+          "width": 7244,
+          "x": 7504,
+          "y": 5770,
+          "z": -371,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 91,
+          "height": 18748,
+          "layer": "",
+          "name": "platforme",
+          "persistentUuid": "4d34beb7-38c3-40de-b337-45f29b33c907",
+          "width": 20119,
+          "x": 9394,
+          "y": 1003,
+          "z": -455,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 91,
+          "height": 16723,
+          "layer": "",
+          "name": "platforme",
+          "persistentUuid": "7a8a8d63-3e6e-4f84-b994-fdfa3db910f6",
+          "width": 16899,
+          "x": 9404,
+          "y": 1013,
+          "z": -455,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 92,
+          "customSize": true,
+          "depth": 4467,
+          "height": 9116,
+          "layer": "",
+          "name": "Buildings_Importés",
+          "persistentUuid": "bfe58f55-3d89-46ba-8d96-ef00c8874882",
+          "width": 7244,
+          "x": 8828,
+          "y": -3568,
+          "z": -371,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -12224,6 +12256,56 @@
             "width": 100,
             "animations": []
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Buildings_Importés",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\low-poly_city_buildings.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
+        },
+        {
+          "assetStoreId": "",
+          "name": "platform_grass",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\grass_usd.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -12267,6 +12349,9 @@
           {
             "folderName": "modèle importé",
             "children": [
+              {
+                "objectName": "Buildings_Importés"
+              },
               {
                 "objectName": "Sniper"
               },
@@ -12314,6 +12399,9 @@
               },
               {
                 "objectName": "Small_Building_E"
+              },
+              {
+                "objectName": "platform_grass"
               }
             ]
           },

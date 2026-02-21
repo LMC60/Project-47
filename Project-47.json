@@ -1,7 +1,7 @@
 {
   "firstLayout": "Intro",
   "gdVersion": {
-    "build": 254,
+    "build": 258,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1907,6 +1907,13 @@
         "kind": "model3D",
         "metadata": "",
         "name": "assets\\Dossier Maxence\\grass_usd.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/Personnage animé.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\Personnage animé.glb",
         "userAdded": false
       }
     ]
@@ -9937,7 +9944,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 91,
-          "height": 18748,
+          "height": 16723,
           "layer": "",
           "name": "platforme",
           "persistentUuid": "4d34beb7-38c3-40de-b337-45f29b33c907",
@@ -9979,6 +9986,23 @@
           "x": 8828,
           "y": -3568,
           "z": -371,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "depth": 193,
+          "height": 193,
+          "layer": "",
+          "name": "Personnage_Animé",
+          "persistentUuid": "0be7de9f-698d-4544-97d4-d815bc6bc044",
+          "width": 35,
+          "x": 8180,
+          "y": 708,
+          "z": -348,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -12306,6 +12330,61 @@
             "width": 100,
             "animations": []
           }
+        },
+        {
+          "assetStoreId": "",
+          "name": "Personnage_Animé",
+          "type": "Scene3D::Model3DObject",
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Physics3D",
+              "type": "Physics3D::Physics3DBehavior",
+              "object3D": "Object3D",
+              "bodyType": "Static",
+              "bullet": false,
+              "fixedRotation": false,
+              "shape": "Mesh",
+              "meshShapeResourceName": "",
+              "shapeOrientation": "Z",
+              "shapeDimensionA": 0,
+              "shapeDimensionB": 0,
+              "shapeDimensionC": 0,
+              "shapeOffsetX": 0,
+              "shapeOffsetY": 0,
+              "shapeOffsetZ": 0,
+              "massCenterOffsetX": 0,
+              "massCenterOffsetY": 0,
+              "massCenterOffsetZ": 0,
+              "massOverride": 0,
+              "density": 1,
+              "friction": 0.3,
+              "restitution": 0.1,
+              "linearDamping": 0.1,
+              "angularDamping": 0.1,
+              "gravityScale": 1,
+              "layers": 17,
+              "masks": 17
+            }
+          ],
+          "content": {
+            "centerLocation": "ModelOrigin",
+            "crossfadeDuration": 0.10000000149011612,
+            "depth": 100,
+            "height": 100,
+            "isCastingShadow": true,
+            "isReceivingShadow": true,
+            "keepAspectRatio": true,
+            "materialType": "StandardWithoutMetalness",
+            "modelResourceName": "assets\\Dossier Maxence\\Personnage animé.glb",
+            "originLocation": "ModelOrigin",
+            "rotationX": 90,
+            "rotationY": 0,
+            "rotationZ": 90,
+            "width": 100,
+            "animations": []
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -12402,6 +12481,9 @@
               },
               {
                 "objectName": "platform_grass"
+              },
+              {
+                "objectName": "Personnage_Animé"
               }
             ]
           },

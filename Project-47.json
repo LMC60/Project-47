@@ -1,7 +1,7 @@
 {
   "firstLayout": "Intro",
   "gdVersion": {
-    "build": 258,
+    "build": 254,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -1914,6 +1914,13 @@
         "kind": "model3D",
         "metadata": "",
         "name": "assets\\Dossier Maxence\\Personnage animé.glb",
+        "userAdded": false
+      },
+      {
+        "file": "assets/Dossier Maxence/hitman_blood_money.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "assets\\Dossier Maxence\\hitman_blood_money.glb",
         "userAdded": false
       }
     ]
@@ -12213,7 +12220,7 @@
             "crossfadeDuration": 0.10000000149011612,
             "depth": 100,
             "height": 100,
-            "isCastingShadow": true,
+            "isCastingShadow": false,
             "isReceivingShadow": true,
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
@@ -12342,10 +12349,10 @@
               "name": "Physics3D",
               "type": "Physics3D::Physics3DBehavior",
               "object3D": "Object3D",
-              "bodyType": "Static",
+              "bodyType": "Dynamic",
               "bullet": false,
               "fixedRotation": false,
-              "shape": "Mesh",
+              "shape": "Capsule",
               "meshShapeResourceName": "",
               "shapeOrientation": "Z",
               "shapeDimensionA": 0,
@@ -12377,13 +12384,19 @@
             "isReceivingShadow": true,
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "assets\\Dossier Maxence\\Personnage animé.glb",
+            "modelResourceName": "assets\\Dossier Maxence\\hitman_blood_money.glb",
             "originLocation": "ModelOrigin",
             "rotationX": 90,
             "rotationY": 0,
             "rotationZ": 90,
             "width": 100,
-            "animations": []
+            "animations": [
+              {
+                "loop": false,
+                "name": "?",
+                "source": "mixamo.com"
+              }
+            ]
           }
         }
       ],

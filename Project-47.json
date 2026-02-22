@@ -9292,6 +9292,18 @@
             },
             {
               "name": "New3DModel"
+            },
+            {
+              "name": "Toboggan"
+            },
+            {
+              "name": "BANC"
+            },
+            {
+              "name": "Balançoire"
+            },
+            {
+              "name": "Personnage_Animé"
             }
           ]
         },
@@ -12493,10 +12505,10 @@
               "name": "Physics3D",
               "type": "Physics3D::Physics3DBehavior",
               "object3D": "Object3D",
-              "bodyType": "Dynamic",
+              "bodyType": "Kinematic",
               "bullet": false,
               "fixedRotation": false,
-              "shape": "Capsule",
+              "shape": "Cylinder",
               "meshShapeResourceName": "",
               "shapeOrientation": "Z",
               "shapeDimensionA": 0,
@@ -12537,7 +12549,7 @@
             "animations": [
               {
                 "loop": false,
-                "name": "?",
+                "name": "",
                 "source": "mixamo.com"
               }
             ]

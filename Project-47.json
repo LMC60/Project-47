@@ -1957,6 +1957,13 @@
         "metadata": "",
         "name": "tobogan_slide_from_playground..glb",
         "userAdded": false
+      },
+      {
+        "file": "playground.glb",
+        "kind": "model3D",
+        "metadata": "",
+        "name": "playground.glb",
+        "userAdded": false
       }
     ]
   },
@@ -10138,14 +10145,14 @@
         {
           "angle": 228,
           "customSize": true,
-          "depth": 568,
-          "height": 470,
+          "depth": 508,
+          "height": 613,
           "layer": "",
-          "name": "New3DModel3",
-          "persistentUuid": "75a40339-5b2c-4c9a-8e57-5d13853bb48c",
-          "width": 481,
-          "x": 9940,
-          "y": 1976,
+          "name": "Toboggan",
+          "persistentUuid": "ab3d5554-d706-49e6-ad05-9317eb667853",
+          "width": 508,
+          "x": 9894,
+          "y": 1837,
           "z": -331,
           "zOrder": 0,
           "numberProperties": [],
@@ -12618,7 +12625,7 @@
         },
         {
           "assetStoreId": "",
-          "name": "New3DModel3",
+          "name": "Toboggan",
           "type": "Scene3D::Model3DObject",
           "variables": [],
           "effects": [],
@@ -12632,7 +12639,7 @@
             "isReceivingShadow": true,
             "keepAspectRatio": true,
             "materialType": "StandardWithoutMetalness",
-            "modelResourceName": "tobogan_slide_from_playground..glb",
+            "modelResourceName": "playground.glb",
             "originLocation": "ModelOrigin",
             "rotationX": 90,
             "rotationY": 0,
@@ -12685,7 +12692,7 @@
                 "objectName": "BANC"
               },
               {
-                "objectName": "New3DModel3"
+                "objectName": "Toboggan"
               }
             ]
           },
